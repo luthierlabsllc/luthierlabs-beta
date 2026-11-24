@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#070a10" />
+  <title>LuthierLabs Suite — Android Beta Downloads (v1.1.0)</title>
+  <meta name="description" content="Direct Android APK beta installs for the 5-App LuthierLabs Guitar Suite: GuitarForge CAD, ToneForge Studio, FretForge Coach, Precision Strobe Tuner & EarForge Gym." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LuthierLabs 5-App Guitar Suite — Android Beta (v1.1.0)" />
+  <meta property="og:description" content="Tap any app to download and install the Android APK directly—no GitHub login required." />
+  <meta property="og:url" content="https://luthierlabsllc.github.io/luthierlabs-beta/" />
+  <meta property="og:image" content="https://luthierlabsllc.github.io/luthierlabs-beta/assets/suite-guitarforge.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" href="./assets/suite-guitarforge.png" />
+  <style>
+    :root {
+      --bg: #020617;
+      --obsidian: #070a10;
+      --card: #0b1120;
+      --border: #334155;
+      --brass: #d4a853;
+      --amber: #fbbf24;
+      --emerald: #10b981;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at 50% 0%, #111827 0%, #020617 70%);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 16px 14px 48px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #070a10 0%, #0f172a 100%);
+      border: 1.5px solid var(--brass);
+      border-radius: 16px;
+      padding: 18px 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+    }
+    .hero-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 21px;
+      font-weight: 900;
+      color: #fde68a;
+      letter-spacing: -0.01em;
+    }
+    .sub {
+      font-size: 13px;
+      color: #cbd5e1;
+      margin: 0;
+      line-height: 1.45;
+    }
+    .share-main {
+      min-height: 46px;
+      padding: 10px 16px;
+      border-radius: 11px;
+      border: 1.5px solid var(--amber);
+      background: linear-gradient(135deg, #451a03 0%, #78350f 100%);
+      color: #fef3c7;
+      font-size: 13.5px;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 700;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: #a7f3d0;
+      background: #064e3b;
+      border: 1px solid var(--emerald);
+      border-radius: 999px;
+      padding: 4px 10px;
+    }
+    .badge.brass {
+      color: #fde68a;
+      background: #1c1204;
+      border-color: var(--brass);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: linear-gradient(180deg, #0b1120 0%, #070b14 100%);
+      border: 1.5px solid #1e293b;
+      border-radius: 15px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+      scroll-margin-top: 14px;
+    }
+    .card:target {
+      border-color: var(--amber);
+      box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.25);
+    }
+    .card-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .card-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 13px;
+      border: 1.5px solid var(--brass);
+      background: #070a10;
+      flex-shrink: 0;
+      object-fit: cover;
+    }
+    .card-title {
+      margin: 0 0 2px;
+      font-size: 16.5px;
+      font-weight: 900;
+      color: #fef3c7;
+    }
+    .card-sub {
+      margin: 0;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .highlights {
+      margin: 0;
+      padding-left: 17px;
+      font-size: 12.5px;
+      color: #cbd5e1;
+      line-height: 1.48;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .meta span {
+      background: #040814;
+      border: 1px solid #1e293b;
+      border-radius: 6px;
+      padding: 3px 7px;
+    }
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .dl-btn {
+      flex: 1 1 210px;
+      min-height: 48px;
+      padding: 11px 14px;
+      border-radius: 10px;
+      border: 1.5px solid var(--emerald);
+      background: linear-gradient(135deg, #065f46 0%, #047857 100%);
+      color: #ecfdf5;
+      font-size: 13.5px;
+      font-weight: 900;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+    }
+    .share-app-btn {
+      min-height: 48px;
+      padding: 11px 13px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #0f172a;
+      color: #fde68a;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .howto {
+      margin-top: 16px;
+      background: #070b14;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+    .howto summary {
+      cursor: pointer;
+      font-size: 14.5px;
+      font-weight: 900;
+      color: #fde68a;
+    }
+    .howto ol {
+      margin: 10px 0 0;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #cbd5e1;
+      line-height: 1.55;
+    }
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      background: #070a10;
+      border: 1.5px solid var(--amber);
+      color: #fde68a;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 12.5px;
+      font-weight: 800;
+      display: none;
+      z-index: 999;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="hero-top">
+        <div>
+          <h1>LuthierLabs 5-App Suite — Android Beta (v1.1.0)</h1>
+          <p class="sub">Direct 1-tap APK installs for testers. Works with no GitHub account required.</p>
+        </div>
+        <button type="button" class="share-main" id="share-hub-btn">📲 Share Beta Link via Messages</button>
+      </div>
+      <div class="badge-row">
+        <span class="badge">v1.1.0 Android APKs</span>
+        <span class="badge brass">No Login Needed to Download</span>
+        <span class="badge brass">100% On-Device DSP &amp; Offline Ready</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <article class="card" id="guitarforge">
+        <div>
+          <div class="card-head">
+            <img class="card-icon" src="./assets/suite-guitarforge.png" alt="GuitarForge icon" width="58" height="58" />
+            <div>
+              <h2 class="card-title">1. GuitarForge: Tone Studio CAD</h2>
+              <p class="card-sub">Custom Wiring Harnesses, Bode EQ &amp; 1:1 CNC Router Templates</p>
+            </div>
+          </div>
+          <ul class="highlights" style="margin-top:10px;">
+            <li>Interactive wiring loom, multimeter target calculator &amp; soldering guide</li>
+            <li>1:1 print templates + binary .STL, R12 .DXF &amp; GRBL .GCODE exports</li>
+            <li>PedalForge, AmpForge, Neck/Headstock CAD &amp; .llbundle Suite sync</li>
+          </ul>
+        </div>
+        <div>
+          <div class="meta" style="margin-bottom:10px;">
+            <span>9.33 MB</span>
+            <span>SHA256: 381d914686f7</span>
+          </div>
+          <div class="actions">
+            <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
+            <button type="button" class="share-app-btn" data-app-id="guitarforge" data-app-name="GuitarForge: Tone Studio CAD">Share App</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" id="toneforge">
+        <div>
+          <div class="card-head">
+            <img class="card-icon" src="./assets/suite-toneforge.png" alt="ToneForge icon" width="58" height="58" />
+            <div>
+              <h2 class="card-title">2. ToneForge: Neural Studio DAW</h2>
+              <p class="card-sub">12 Neural .NAM Amps, Re-Amping Multi-Track DAW &amp; Pedalboard</p>
+            </div>
+          </div>
+          <ul class="highlights" style="margin-top:10px;">
+            <li>12 neural amp archetypes, 8 stompboxes &amp; 2D dual-mic cab room</li>
+            <li>Non-destructive Dry-DI re-amping, 4-stem tools &amp; -14 LUFS mastering</li>
+            <li>USB Hi-Z interface trim, wireless beltpack bridge &amp; BT footswitch matrix</li>
+          </ul>
+        </div>
+        <div>
+          <div class="meta" style="margin-bottom:10px;">
+            <span>8.29 MB</span>
+            <span>SHA256: 7f357cc1e995</span>
+          </div>
+          <div class="actions">
+            <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
+            <button type="button" class="share-app-btn" data-app-id="toneforge" data-app-name="ToneForge: Neural Studio DAW">Share App</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" id="fretforge">
+        <div>
+          <div class="card-head">
+            <img class="card-icon" src="./assets/suite-fretforge.png" alt="FretForge icon" width="58" height="58" />
+            <div>
+              <h2 class="card-title">3. FretForge: Guitar Coach</h2>
+              <p class="card-sub">Live Mic YIN Feedback, 3D Highway, CAGED &amp; Song Slow-Downer</p>
+            </div>
+          </div>
+          <ul class="highlights" style="margin-top:10px;">
+            <li>Real-time pitch &amp; chord-voicing verification via phone mic or USB interface</li>
+            <li>3D play-along highway, 48 multi-instrument drills &amp; WSOLA speed trainer</li>
+            <li>Guitar Pro (.GP/.GP5), MusicXML 4.0 &amp; Nashville chart conservatory tools</li>
+          </ul>
+        </div>
+        <div>
+          <div class="meta" style="margin-bottom:10px;">
+            <span>8.05 MB</span>
+            <span>SHA256: 73f3f2d4a939</span>
+          </div>
+          <div class="actions">
+            <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
+            <button type="button" class="share-app-btn" data-app-id="fretforge" data-app-name="FretForge: Guitar Coach">Share App</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" id="strobe">
+        <div>
+          <div class="card-head">
+            <img class="card-icon" src="./assets/suite-strobe.png" alt="Precision Strobe Tuner icon" width="58" height="58" />
+            <div>
+              <h2 class="card-title">4. Precision Strobe Tuner</h2>
+              <p class="card-sub">±0.1¢ Quadrature (I/Q) &amp; YIN Strobe, 69 Tunings &amp; Setup Lab</p>
+            </div>
+          </div>
+          <ul class="highlights" style="margin-top:10px;">
+            <li>Sample-locked phosphor strobe accuracy across 14 instrument families</li>
+            <li>12th-fret intonation coach, neck-buzz scan &amp; Chladni tap-tone analyzer</li>
+            <li>True-Temperament curved-fret targets &amp; sympathetic spring ring scanner</li>
+          </ul>
+        </div>
+        <div>
+          <div class="meta" style="margin-bottom:10px;">
+            <span>8.75 MB</span>
+            <span>SHA256: a308c5bae3ef</span>
+          </div>
+          <div class="actions">
+            <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
+            <button type="button" class="share-app-btn" data-app-id="strobe" data-app-name="Precision Strobe Tuner">Share App</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card" id="earforge">
+        <div>
+          <div class="card-head">
+            <img class="card-icon" src="./assets/suite-earforge.png" alt="EarForge Gym icon" width="58" height="58" />
+            <div>
+              <h2 class="card-title">5. EarForge: Golden-Ear Gym</h2>
+              <p class="card-sub">Guitar-Free Ear Training, 8-Band EQ Sniper &amp; Pickup Blind Shootouts</p>
+            </div>
+          </div>
+          <ul class="highlights" style="margin-top:10px;">
+            <li>Commuter Wing: scale degrees, Roman progressions, voicings &amp; blind fretboard</li>
+            <li>Golden-Ear Wing: loudness-matched 8-band EQ sniper &amp; 6 blind pickups</li>
+            <li>Adaptive Elo confusion matrix + LLEAR1_ sync across FretForge &amp; ToneForge</li>
+          </ul>
+        </div>
+        <div>
+          <div class="meta" style="margin-bottom:10px;">
+            <span>7.79 MB</span>
+            <span>SHA256: 0616c2e77e00</span>
+          </div>
+          <div class="actions">
+            <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
+            <button type="button" class="share-app-btn" data-app-id="earforge" data-app-name="EarForge: Golden-Ear Gym">Share App</button>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <details class="howto" open>
+      <summary>How to Install on Android (30 Seconds)</summary>
+      <ol>
+        <li>Tap <strong>Download Android .APK (v1.1.0)</strong> on any app card above.</li>
+        <li>Tap <strong>Open</strong> when the download finishes (or open <strong>Files → Downloads</strong>) and allow <em>Install unknown apps</em> for your browser or Files app if prompted.</li>
+        <li><strong>Upgrading from an older test build?</strong> If Android says <em>“package conflicts with an existing package”</em>, export your `.llbundle` backup inside the app first, uninstall the older beta build, and then install this `.apk`.</li>
+      </ol>
+    </details>
+  </div>
+
+  <div class="toast" id="share-toast"></div>
+
+  <script>
+    (function () {
+      var BASE_URL = 'https://luthierlabsllc.github.io/luthierlabs-beta/';
+      var toastEl = document.getElementById('share-toast');
+      var toastTimer = null;
+
+      function showToast(msg) {
+        toastEl.textContent = msg;
+        toastEl.style.display = 'block';
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () { toastEl.style.display = 'none'; }, 2600);
+      }
+
+      function shareLink(title, text, url) {
+        if (navigator.share) {
+          navigator.share({ title: title, text: text, url: url }).catch(function () {});
+          return;
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(function () {
+            showToast('Copied link to clipboard: ' + url);
+          }).catch(function () {
+            showToast(url);
+          });
+          return;
+        }
+        showToast(url);
+      }
+
+      document.getElementById('share-hub-btn').addEventListener('click', function () {
+        shareLink(
+          'LuthierLabs 5-App Guitar Suite (Android Beta v1.1.0)',
+          'Install any of the 5 LuthierLabs Android beta apps directly (no login required):',
+          BASE_URL
+        );
+      });
+
+      Array.prototype.forEach.call(document.querySelectorAll('.share-app-btn'), function (btn) {
+        btn.addEventListener('click', function () {
+          var appId = btn.getAttribute('data-app-id');
+          var appName = btn.getAttribute('data-app-name');
+          shareLink(
+            appName + ' — Android Beta (v1.1.0)',
+            'Download the ' + appName + ' Android beta APK:',
+            BASE_URL + '#' + appId
+          );
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
