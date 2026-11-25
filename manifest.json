@@ -1,41 +1,41 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T09:27:00Z",
+  "updatedAt": "2026-11-25T11:28:14Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "4260ce60d4b1",
+      "sha256": "ec9fd2f6f4b6",
       "sizeMb": "9.39"
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "a58a49768793",
-      "sizeMb": "8.32"
+      "sha256": "614880cd07d0",
+      "sizeMb": "8.33"
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "d4f84403a3bd",
+      "sha256": "b6b797d09887",
       "sizeMb": "8.09"
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "7d45ae5a3523",
+      "sha256": "80947b905be4",
       "sizeMb": "8.79"
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "a5df01f96c2d",
+      "sha256": "66d230903ebf",
       "sizeMb": "7.82"
     }
   }
