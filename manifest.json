@@ -1,0 +1,42 @@
+{
+  "schema": "luthierlabs-beta-manifest/v1",
+  "updatedAt": "2026-11-25T08:48:00Z",
+  "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
+  "apps": {
+    "GUITARFORGE": {
+      "version": "1.1.0",
+      "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
+      "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
+      "sha256": "c0fa2932cf49",
+      "sizeMb": "9.39"
+    },
+    "TONEFORGE": {
+      "version": "1.1.0",
+      "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
+      "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
+      "sha256": "efda8dda2e5e",
+      "sizeMb": "8.32"
+    },
+    "FRETFORGE": {
+      "version": "1.1.0",
+      "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
+      "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
+      "sha256": "1b9b101282da",
+      "sizeMb": "8.09"
+    },
+    "PRECISION_STROBE": {
+      "version": "1.1.0",
+      "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
+      "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
+      "sha256": "91d1434fe6da",
+      "sizeMb": "8.79"
+    },
+    "EARFORGE": {
+      "version": "1.1.0",
+      "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
+      "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
+      "sha256": "8c20df3050bd",
+      "sizeMb": "7.82"
+    }
+  }
+}
