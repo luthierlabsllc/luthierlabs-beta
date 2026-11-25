@@ -222,6 +222,30 @@
       color: #cbd5e1;
       line-height: 1.55;
     }
+    .upgrade-note {
+      background: linear-gradient(135deg, #1a1205 0%, #0b1120 100%);
+      border: 1.5px solid var(--amber);
+      border-radius: 14px;
+      padding: 13px 15px;
+      margin-bottom: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.55);
+    }
+    .upgrade-note h2 {
+      margin: 0 0 6px;
+      font-size: 14px;
+      font-weight: 900;
+      color: #fde68a;
+    }
+    .upgrade-note ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 12.5px;
+      color: #e2e8f0;
+      line-height: 1.5;
+    }
+    .upgrade-note li + li {
+      margin-top: 5px;
+    }
     .toast {
       position: fixed;
       left: 50%;
@@ -253,9 +277,18 @@
       <div class="badge-row">
         <span class="badge">v1.1.0 Android APKs</span>
         <span class="badge brass">No Login Needed to Download</span>
+        <span class="badge brass">Auto-Cleaning In-App Updater (Zero Downloads/ Clutter)</span>
         <span class="badge brass">Grouped Together Under “LL” in App Drawer</span>
       </div>
     </header>
+
+    <section class="upgrade-note" aria-label="Upgrade and cleanup notice">
+      <h2>⚠️ Upgrading From a Weeks-Old Beta Build? (One-Time 20-Second Fix)</h2>
+      <ul>
+        <li><strong>Fixing “App not installed”:</strong> Earlier test builds used temporary per-build keys. Export a <code>.llbundle</code> backup if needed, <strong>uninstall the old app once</strong> (check <em>Settings → Apps → All apps</em> under both <strong>GuitarForge</strong> and <strong>LL GuitarForge</strong>, plus Work Profile / Secure Folder), then install the <code>.apk</code> below. <strong>Every update from now on shares one key and installs directly in-place.</strong></li>
+        <li><strong>Cleaning old <code>.apk</code> files in <code>Downloads/</code>:</strong> You can safely delete any old <code>.apk</code> installers sitting in your phone’s <code>Downloads/</code> folder (installed apps live in Android system storage). Going forward, tapping <strong>Suite Hub → Update This App (.APK)</strong> inside any app downloads into an <strong>auto-cleaning private cache</strong> instead of piling up <code>.apk</code> files in <code>Downloads/</code>.</li>
+      </ul>
+    </section>
 
     <main class="grid">
       <article class="card" id="guitarforge">
@@ -276,8 +309,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL GuitarForge</span>
-            <span>9.44 MB</span>
-            <span>SHA256: 4b6bf3fac7ce</span>
+            <span>9.45 MB</span>
+            <span>SHA256: 6c8bfc2afd3f</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -304,8 +337,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL ToneForge</span>
-            <span>8.33 MB</span>
-            <span>SHA256: 6f1455bc5124</span>
+            <span>8.34 MB</span>
+            <span>SHA256: 658462720b93</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -332,8 +365,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL FretForge</span>
-            <span>8.09 MB</span>
-            <span>SHA256: 8665aa697222</span>
+            <span>8.10 MB</span>
+            <span>SHA256: ded29e2825a2</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -360,8 +393,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL Strobe Tuner</span>
-            <span>8.79 MB</span>
-            <span>SHA256: 602a7af08b37</span>
+            <span>8.80 MB</span>
+            <span>SHA256: 6b98b8e7665b</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -388,8 +421,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL EarForge</span>
-            <span>7.82 MB</span>
-            <span>SHA256: c3feaa36208c</span>
+            <span>7.83 MB</span>
+            <span>SHA256: 310fde933f2b</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>

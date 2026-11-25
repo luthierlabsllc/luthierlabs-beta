@@ -1,42 +1,42 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T14:25:14Z",
+  "updatedAt": "2026-11-25T18:27:23Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "4b6bf3fac7ce",
-      "sizeMb": "9.44"
+      "sha256": "6c8bfc2afd3f",
+      "sizeMb": "9.45"
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "6f1455bc5124",
-      "sizeMb": "8.33"
+      "sha256": "658462720b93",
+      "sizeMb": "8.34"
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "8665aa697222",
-      "sizeMb": "8.09"
+      "sha256": "ded29e2825a2",
+      "sizeMb": "8.10"
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "602a7af08b37",
-      "sizeMb": "8.79"
+      "sha256": "6b98b8e7665b",
+      "sizeMb": "8.80"
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "c3feaa36208c",
-      "sizeMb": "7.82"
+      "sha256": "310fde933f2b",
+      "sizeMb": "7.83"
     }
   }
 }
