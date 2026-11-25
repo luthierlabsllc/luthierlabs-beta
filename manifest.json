@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T22:04:05Z",
+  "updatedAt": "2026-11-25T23:36:06Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "1d686fdd228d",
-      "sizeMb": "9.47",
+      "sha256": "915bd754d9da",
+      "sizeMb": "9.48",
       "releaseHistory": [
         {
           "seq": 1,
@@ -127,17 +127,29 @@
             "Full CAD dimension & geometry audit across router, bridge, headstock, neck, gauge & amp templates",
             "CAD/CNC ALPHA disclaimer banner with 1-tap detailed issue reporting across all CAD tools"
           ]
+        },
+        {
+          "seq": 11,
+          "androidVersionCode": 2116,
+          "swBuild": 772,
+          "sha256": "915bd754d9da",
+          "sizeMb": "9.48",
+          "updatedAt": "2026-11-25T23:36:06Z",
+          "notes": [
+            "Authentic 1:1 Standard Telecaster (189×216mm) & Jazzmaster (361×256mm) pickguard blueprints",
+            "Added '72 Telecaster Deluxe HH (374×285mm) & '72 Telecaster Custom large pickguard outlines",
+            "4-ear Jazzmaster pickup covers, '72 Wide-Range 4-screw Humbuckers, Rhythm Circuit & tail jack"
+          ]
         }
       ],
-      "releaseSeq": 10,
-      "androidVersionCode": 2115,
-      "swBuild": 771,
-      "updatedAt": "2026-11-25T22:04:05Z",
+      "releaseSeq": 11,
+      "androidVersionCode": 2116,
+      "swBuild": 772,
+      "updatedAt": "2026-11-25T23:36:06Z",
       "whatsNew": [
-        "18 neck carve profiles (incl. 6 Ibanez Wizard/AZ + Jazz & P-Bass) with manifold .STL & ball-nose .GCODE",
-        "Op-1 face-up truss rod CNC slot (.GCODE), 5 truss rod specs & live wood-floor safety check",
-        "Full CAD dimension & geometry audit across router, bridge, headstock, neck, gauge & amp templates",
-        "CAD/CNC ALPHA disclaimer banner with 1-tap detailed issue reporting across all CAD tools"
+        "Authentic 1:1 Standard Telecaster (189×216mm) & Jazzmaster (361×256mm) pickguard blueprints",
+        "Added '72 Telecaster Deluxe HH (374×285mm) & '72 Telecaster Custom large pickguard outlines",
+        "4-ear Jazzmaster pickup covers, '72 Wide-Range 4-screw Humbuckers, Rhythm Circuit & tail jack"
       ]
     },
     "TONEFORGE": {
