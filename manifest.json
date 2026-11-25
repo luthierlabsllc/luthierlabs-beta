@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T19:14:30Z",
+  "updatedAt": "2026-11-25T22:04:05Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "351fbd83ef6a",
-      "sizeMb": "9.46",
+      "sha256": "1d686fdd228d",
+      "sizeMb": "9.47",
       "releaseHistory": [
         {
           "seq": 1,
@@ -113,15 +113,31 @@
             "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
             "\"What's New\" summary for every update in Suite Hub & the Beta page"
           ]
+        },
+        {
+          "seq": 10,
+          "androidVersionCode": 2115,
+          "swBuild": 771,
+          "sha256": "1d686fdd228d",
+          "sizeMb": "9.47",
+          "updatedAt": "2026-11-25T22:04:05Z",
+          "notes": [
+            "18 neck carve profiles (incl. 6 Ibanez Wizard/AZ + Jazz & P-Bass) with manifold .STL & ball-nose .GCODE",
+            "Op-1 face-up truss rod CNC slot (.GCODE), 5 truss rod specs & live wood-floor safety check",
+            "Full CAD dimension & geometry audit across router, bridge, headstock, neck, gauge & amp templates",
+            "CAD/CNC ALPHA disclaimer banner with 1-tap detailed issue reporting across all CAD tools"
+          ]
         }
       ],
-      "releaseSeq": 9,
-      "androidVersionCode": 2114,
-      "swBuild": 767,
-      "updatedAt": "2026-11-25T19:14:30Z",
+      "releaseSeq": 10,
+      "androidVersionCode": 2115,
+      "swBuild": 771,
+      "updatedAt": "2026-11-25T22:04:05Z",
       "whatsNew": [
-        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
-        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+        "18 neck carve profiles (incl. 6 Ibanez Wizard/AZ + Jazz & P-Bass) with manifold .STL & ball-nose .GCODE",
+        "Op-1 face-up truss rod CNC slot (.GCODE), 5 truss rod specs & live wood-floor safety check",
+        "Full CAD dimension & geometry audit across router, bridge, headstock, neck, gauge & amp templates",
+        "CAD/CNC ALPHA disclaimer banner with 1-tap detailed issue reporting across all CAD tools"
       ]
     },
     "TONEFORGE": {
