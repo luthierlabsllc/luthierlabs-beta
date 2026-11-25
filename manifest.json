@@ -1,42 +1,491 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T18:47:15Z",
+  "updatedAt": "2026-11-25T19:14:30Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "d45aece612b6",
-      "sizeMb": "9.45"
+      "sha256": "351fbd83ef6a",
+      "sizeMb": "9.46",
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "androidVersionCode": 2106,
+          "swBuild": 760,
+          "sha256": "c0fa2932cf49",
+          "sizeMb": "9.39",
+          "updatedAt": "2026-11-25T08:48:00Z",
+          "notes": [
+            "First shared-key beta build — future updates install in place",
+            "Suite Hub update checker"
+          ]
+        },
+        {
+          "seq": 2,
+          "androidVersionCode": 2107,
+          "swBuild": 761,
+          "sha256": "eb69645a03d5",
+          "sizeMb": "9.39",
+          "updatedAt": "2026-11-25T09:11:00Z",
+          "notes": [
+            "Plain-English Bench Link labels"
+          ]
+        },
+        {
+          "seq": 3,
+          "androidVersionCode": 2108,
+          "swBuild": 761,
+          "sha256": "4260ce60d4b1",
+          "sizeMb": "9.39",
+          "updatedAt": "2026-11-25T09:27:00Z",
+          "notes": [
+            "Unified LuthierLabs Beta signing across all 5 apps"
+          ]
+        },
+        {
+          "seq": 4,
+          "androidVersionCode": 2109,
+          "swBuild": 762,
+          "sha256": "ec9fd2f6f4b6",
+          "sizeMb": "9.39",
+          "updatedAt": "2026-11-25T11:28:14Z",
+          "notes": [
+            "Pocket Beltpack labeled for 2-device (laptop + phone) setups"
+          ]
+        },
+        {
+          "seq": 5,
+          "androidVersionCode": 2110,
+          "swBuild": 763,
+          "sha256": "36492aeb182d",
+          "sizeMb": "9.40",
+          "updatedAt": "2026-11-25T12:21:53Z",
+          "notes": [
+            "Mobile layout fix — All/Neck/Mid/Bridge buttons visible again",
+            "Bode frequency graph restored",
+            "10-way SuperSwitch, Lace pickups & per-pot values in pinout",
+            "Shared Suite design sync"
+          ]
+        },
+        {
+          "seq": 6,
+          "androidVersionCode": 2111,
+          "swBuild": 764,
+          "sha256": "4b6bf3fac7ce",
+          "sizeMb": "9.44",
+          "updatedAt": "2026-11-25T14:25:14Z",
+          "notes": [
+            "8 updated guitar body silhouettes with tapered necks"
+          ]
+        },
+        {
+          "seq": 7,
+          "androidVersionCode": 2112,
+          "swBuild": 765,
+          "sha256": "6c8bfc2afd3f",
+          "sizeMb": "9.45",
+          "updatedAt": "2026-11-25T18:27:23Z",
+          "notes": [
+            "Updates download to a self-cleaning private cache — no more .apk clutter in Downloads"
+          ]
+        },
+        {
+          "seq": 8,
+          "androidVersionCode": 2113,
+          "swBuild": 766,
+          "sha256": "d45aece612b6",
+          "sizeMb": "9.45",
+          "updatedAt": "2026-11-25T18:47:15Z",
+          "notes": [
+            "Updated Les Paul silhouette across all body views"
+          ]
+        },
+        {
+          "seq": 9,
+          "androidVersionCode": 2114,
+          "swBuild": 767,
+          "sha256": "351fbd83ef6a",
+          "sizeMb": "9.46",
+          "updatedAt": "2026-11-25T19:14:30Z",
+          "notes": [
+            "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+            "\"What's New\" summary for every update in Suite Hub & the Beta page"
+          ]
+        }
+      ],
+      "releaseSeq": 9,
+      "androidVersionCode": 2114,
+      "swBuild": 767,
+      "updatedAt": "2026-11-25T19:14:30Z",
+      "whatsNew": [
+        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+      ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "658462720b93",
-      "sizeMb": "8.34"
+      "sha256": "0260dbf8a376",
+      "sizeMb": "8.34",
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "androidVersionCode": 2043,
+          "swBuild": 453,
+          "sha256": "efda8dda2e5e",
+          "sizeMb": "8.32",
+          "updatedAt": "2026-11-25T08:48:00Z",
+          "notes": [
+            "First shared-key beta build — future updates install in place",
+            "Suite Hub update checker"
+          ]
+        },
+        {
+          "seq": 2,
+          "androidVersionCode": 2044,
+          "swBuild": 453,
+          "sha256": "a58a49768793",
+          "sizeMb": "8.32",
+          "updatedAt": "2026-11-25T09:27:00Z",
+          "notes": [
+            "Unified LuthierLabs Beta signing across all 5 apps"
+          ]
+        },
+        {
+          "seq": 3,
+          "androidVersionCode": 2045,
+          "swBuild": 454,
+          "sha256": "614880cd07d0",
+          "sizeMb": "8.33",
+          "updatedAt": "2026-11-25T11:28:14Z",
+          "notes": [
+            "Pocket Beltpack labeled for 2-device (laptop + phone) setups"
+          ]
+        },
+        {
+          "seq": 4,
+          "androidVersionCode": 2046,
+          "swBuild": 455,
+          "sha256": "6f1455bc5124",
+          "sizeMb": "8.33",
+          "updatedAt": "2026-11-25T12:21:53Z",
+          "notes": [
+            "Shared Suite design sync"
+          ]
+        },
+        {
+          "seq": 5,
+          "androidVersionCode": 2047,
+          "swBuild": 456,
+          "sha256": "658462720b93",
+          "sizeMb": "8.34",
+          "updatedAt": "2026-11-25T18:27:23Z",
+          "notes": [
+            "Updates download to a self-cleaning private cache — no more .apk clutter in Downloads"
+          ]
+        },
+        {
+          "seq": 6,
+          "androidVersionCode": 2048,
+          "swBuild": 457,
+          "sha256": "0260dbf8a376",
+          "sizeMb": "8.34",
+          "updatedAt": "2026-11-25T19:14:30Z",
+          "notes": [
+            "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+            "\"What's New\" summary for every update in Suite Hub & the Beta page"
+          ]
+        }
+      ],
+      "releaseSeq": 6,
+      "androidVersionCode": 2048,
+      "swBuild": 457,
+      "updatedAt": "2026-11-25T19:14:30Z",
+      "whatsNew": [
+        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+      ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "ded29e2825a2",
-      "sizeMb": "8.10"
+      "sha256": "d68576362758",
+      "sizeMb": "8.11",
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "androidVersionCode": 2066,
+          "swBuild": 67,
+          "sha256": "1b9b101282da",
+          "sizeMb": "8.09",
+          "updatedAt": "2026-11-25T08:48:00Z",
+          "notes": [
+            "First shared-key beta build — future updates install in place",
+            "Suite Hub update checker"
+          ]
+        },
+        {
+          "seq": 2,
+          "androidVersionCode": 2067,
+          "swBuild": 68,
+          "sha256": "d975b2658630",
+          "sizeMb": "8.09",
+          "updatedAt": "2026-11-25T09:11:00Z",
+          "notes": [
+            "Plain-English Bench Link labels"
+          ]
+        },
+        {
+          "seq": 3,
+          "androidVersionCode": 2068,
+          "swBuild": 68,
+          "sha256": "d4f84403a3bd",
+          "sizeMb": "8.09",
+          "updatedAt": "2026-11-25T09:27:00Z",
+          "notes": [
+            "Unified LuthierLabs Beta signing across all 5 apps"
+          ]
+        },
+        {
+          "seq": 4,
+          "androidVersionCode": 2069,
+          "swBuild": 69,
+          "sha256": "b6b797d09887",
+          "sizeMb": "8.09",
+          "updatedAt": "2026-11-25T11:28:14Z",
+          "notes": [
+            "Pocket Beltpack labeled for 2-device (laptop + phone) setups"
+          ]
+        },
+        {
+          "seq": 5,
+          "androidVersionCode": 2070,
+          "swBuild": 70,
+          "sha256": "8665aa697222",
+          "sizeMb": "8.09",
+          "updatedAt": "2026-11-25T12:21:53Z",
+          "notes": [
+            "Shared Suite design sync"
+          ]
+        },
+        {
+          "seq": 6,
+          "androidVersionCode": 2071,
+          "swBuild": 71,
+          "sha256": "ded29e2825a2",
+          "sizeMb": "8.10",
+          "updatedAt": "2026-11-25T18:27:23Z",
+          "notes": [
+            "Updates download to a self-cleaning private cache — no more .apk clutter in Downloads"
+          ]
+        },
+        {
+          "seq": 7,
+          "androidVersionCode": 2072,
+          "swBuild": 72,
+          "sha256": "d68576362758",
+          "sizeMb": "8.11",
+          "updatedAt": "2026-11-25T19:14:30Z",
+          "notes": [
+            "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+            "\"What's New\" summary for every update in Suite Hub & the Beta page"
+          ]
+        }
+      ],
+      "releaseSeq": 7,
+      "androidVersionCode": 2072,
+      "swBuild": 72,
+      "updatedAt": "2026-11-25T19:14:30Z",
+      "whatsNew": [
+        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+      ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "6b98b8e7665b",
-      "sizeMb": "8.80"
+      "sha256": "5f2af0a04c2b",
+      "sizeMb": "8.81",
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "androidVersionCode": 2052,
+          "swBuild": 53,
+          "sha256": "91d1434fe6da",
+          "sizeMb": "8.79",
+          "updatedAt": "2026-11-25T08:48:00Z",
+          "notes": [
+            "First shared-key beta build — future updates install in place",
+            "Suite Hub update checker"
+          ]
+        },
+        {
+          "seq": 2,
+          "androidVersionCode": 2053,
+          "swBuild": 54,
+          "sha256": "8adb39683f4d",
+          "sizeMb": "8.79",
+          "updatedAt": "2026-11-25T09:11:00Z",
+          "notes": [
+            "Plain-English Bench Link labels"
+          ]
+        },
+        {
+          "seq": 3,
+          "androidVersionCode": 2054,
+          "swBuild": 54,
+          "sha256": "7d45ae5a3523",
+          "sizeMb": "8.79",
+          "updatedAt": "2026-11-25T09:27:00Z",
+          "notes": [
+            "Unified LuthierLabs Beta signing across all 5 apps"
+          ]
+        },
+        {
+          "seq": 4,
+          "androidVersionCode": 2055,
+          "swBuild": 55,
+          "sha256": "80947b905be4",
+          "sizeMb": "8.79",
+          "updatedAt": "2026-11-25T11:28:14Z",
+          "notes": [
+            "Pocket Beltpack labeled for 2-device (laptop + phone) setups"
+          ]
+        },
+        {
+          "seq": 5,
+          "androidVersionCode": 2056,
+          "swBuild": 56,
+          "sha256": "602a7af08b37",
+          "sizeMb": "8.79",
+          "updatedAt": "2026-11-25T12:21:53Z",
+          "notes": [
+            "Shared Suite design sync"
+          ]
+        },
+        {
+          "seq": 6,
+          "androidVersionCode": 2057,
+          "swBuild": 57,
+          "sha256": "6b98b8e7665b",
+          "sizeMb": "8.80",
+          "updatedAt": "2026-11-25T18:27:23Z",
+          "notes": [
+            "Updates download to a self-cleaning private cache — no more .apk clutter in Downloads"
+          ]
+        },
+        {
+          "seq": 7,
+          "androidVersionCode": 2058,
+          "swBuild": 58,
+          "sha256": "5f2af0a04c2b",
+          "sizeMb": "8.81",
+          "updatedAt": "2026-11-25T19:14:30Z",
+          "notes": [
+            "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+            "\"What's New\" summary for every update in Suite Hub & the Beta page"
+          ]
+        }
+      ],
+      "releaseSeq": 7,
+      "androidVersionCode": 2058,
+      "swBuild": 58,
+      "updatedAt": "2026-11-25T19:14:30Z",
+      "whatsNew": [
+        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+      ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "310fde933f2b",
-      "sizeMb": "7.83"
+      "sha256": "68349b311e90",
+      "sizeMb": "7.84",
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "androidVersionCode": 2012,
+          "swBuild": 108,
+          "sha256": "8c20df3050bd",
+          "sizeMb": "7.82",
+          "updatedAt": "2026-11-25T08:48:00Z",
+          "notes": [
+            "First shared-key beta build — future updates install in place",
+            "Suite Hub update checker"
+          ]
+        },
+        {
+          "seq": 2,
+          "androidVersionCode": 2013,
+          "swBuild": 108,
+          "sha256": "a5df01f96c2d",
+          "sizeMb": "7.82",
+          "updatedAt": "2026-11-25T09:27:00Z",
+          "notes": [
+            "Unified LuthierLabs Beta signing across all 5 apps"
+          ]
+        },
+        {
+          "seq": 3,
+          "androidVersionCode": 2014,
+          "swBuild": 109,
+          "sha256": "66d230903ebf",
+          "sizeMb": "7.82",
+          "updatedAt": "2026-11-25T11:28:14Z",
+          "notes": [
+            "Pocket Beltpack labeled for 2-device (laptop + phone) setups"
+          ]
+        },
+        {
+          "seq": 4,
+          "androidVersionCode": 2015,
+          "swBuild": 110,
+          "sha256": "c3feaa36208c",
+          "sizeMb": "7.82",
+          "updatedAt": "2026-11-25T12:21:53Z",
+          "notes": [
+            "Shared Suite design sync"
+          ]
+        },
+        {
+          "seq": 5,
+          "androidVersionCode": 2016,
+          "swBuild": 111,
+          "sha256": "310fde933f2b",
+          "sizeMb": "7.83",
+          "updatedAt": "2026-11-25T18:27:23Z",
+          "notes": [
+            "Updates download to a self-cleaning private cache — no more .apk clutter in Downloads"
+          ]
+        },
+        {
+          "seq": 6,
+          "androidVersionCode": 2017,
+          "swBuild": 112,
+          "sha256": "68349b311e90",
+          "sizeMb": "7.84",
+          "updatedAt": "2026-11-25T19:14:30Z",
+          "notes": [
+            "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+            "\"What's New\" summary for every update in Suite Hub & the Beta page"
+          ]
+        }
+      ],
+      "releaseSeq": 6,
+      "androidVersionCode": 2017,
+      "swBuild": 112,
+      "updatedAt": "2026-11-25T19:14:30Z",
+      "whatsNew": [
+        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
+        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+      ]
     }
-  }
+  },
+  "historyCap": 50
 }

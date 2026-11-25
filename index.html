@@ -262,6 +262,89 @@
       z-index: 999;
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
     }
+    .status-summary {
+      margin-top: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      font-size: 12.5px;
+      color: #e2e8f0;
+    }
+    .status-summary[hidden] { display: none; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11.5px;
+      font-weight: 900;
+      border-radius: 999px;
+      padding: 4px 10px;
+      border: 1px solid #38bdf8;
+      background: #082f49;
+      color: #bae6fd;
+      white-space: nowrap;
+    }
+    .pill.ok { border-color: #34d399; background: #064e3b; color: #a7f3d0; }
+    .pill.warn { border-color: #fbbf24; background: #422808; color: #fde68a; }
+    .pill.muted { border-color: #64748b; background: #0f172a; color: #cbd5e1; }
+    .pill.time { border-color: #334155; background: #040814; color: #94a3b8; font-weight: 700; }
+    .pill.tip { white-space: normal; border-radius: 12px; line-height: 1.4; max-width: 100%; }
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 9px;
+    }
+    .status-src {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 10.5px;
+      color: var(--muted);
+    }
+    .whatsnew {
+      background: #040814;
+      border: 1px solid #1e3a5f;
+      border-radius: 10px;
+      padding: 9px 11px;
+      margin-bottom: 10px;
+    }
+    .whatsnew.behind { border-color: #a16207; }
+    .wn-head {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 900;
+      color: #bae6fd;
+    }
+    .whatsnew.behind .wn-head { color: #fde68a; }
+    .wn-stamp {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 10.5px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+    .whatsnew ul {
+      margin: 5px 0 0;
+      padding-left: 17px;
+      font-size: 12px;
+      color: #e2e8f0;
+      line-height: 1.45;
+    }
+    .whatsnew li.more { color: var(--muted); }
+    .dl-btn.is-current {
+      border-color: #334155;
+      background: #0f172a;
+      color: #a7f3d0;
+    }
+    .dl-btn.is-behind {
+      border-color: #fde68a;
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #020617;
+    }
   </style>
 </head>
 <body>
@@ -280,6 +363,7 @@
         <span class="badge brass">Auto-Cleaning In-App Updater (Zero Downloads/ Clutter)</span>
         <span class="badge brass">Grouped Together Under “LL” in App Drawer</span>
       </div>
+      <div class="status-summary" id="suite-status-summary" hidden aria-live="polite"></div>
     </header>
 
     <section class="upgrade-note" aria-label="Upgrade and cleanup notice">
@@ -309,8 +393,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL GuitarForge</span>
-            <span>9.45 MB</span>
-            <span>SHA256: d45aece612b6</span>
+            <span>9.46 MB</span>
+            <span>SHA256: 351fbd83ef6a</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -338,7 +422,7 @@
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL ToneForge</span>
             <span>8.34 MB</span>
-            <span>SHA256: 658462720b93</span>
+            <span>SHA256: 0260dbf8a376</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -365,8 +449,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL FretForge</span>
-            <span>8.10 MB</span>
-            <span>SHA256: ded29e2825a2</span>
+            <span>8.11 MB</span>
+            <span>SHA256: d68576362758</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -393,8 +477,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL Strobe Tuner</span>
-            <span>8.80 MB</span>
-            <span>SHA256: 6b98b8e7665b</span>
+            <span>8.81 MB</span>
+            <span>SHA256: 5f2af0a04c2b</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -421,8 +505,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL EarForge</span>
-            <span>7.83 MB</span>
-            <span>SHA256: 310fde933f2b</span>
+            <span>7.84 MB</span>
+            <span>SHA256: 68349b311e90</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -493,6 +577,259 @@
           );
         });
       });
+    })();
+  </script>
+  <script>
+    // Build status ("Up to Date" / "N Updates Behind" / "Not Installed") + What's New summaries.
+    // Device info arrives via ?installed=GF:2113:766,TF:x,... when opened from any Suite app's Suite Hub,
+    // and falls back to the builds this browser last downloaded.
+    (function () {
+      var VERSION_CODE_FLOOR = 2000;
+      var HANDOFF_KEY = 'll_beta_hub_installed_v1';
+      var LEDGER_KEY = 'll_beta_hub_dl_ledger_v1';
+      var CARD_TO_APP = { guitarforge: 'GUITARFORGE', toneforge: 'TONEFORGE', fretforge: 'FRETFORGE', strobe: 'PRECISION_STROBE', earforge: 'EARFORGE' };
+      var CODE_TO_APP = { GF: 'GUITARFORGE', TF: 'TONEFORGE', FF: 'FRETFORGE', PS: 'PRECISION_STROBE', EF: 'EARFORGE' };
+      var manifest = null;
+
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      }
+      function num(v) {
+        if (v === null || v === undefined || v === '') return null;
+        var n = +v;
+        return isFinite(n) ? n : null;
+      }
+      function readJson(key) {
+        try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch (e) { return null; }
+      }
+      function writeJson(key, val) {
+        try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+      }
+
+      function parseInstalledParam(raw) {
+        var apps = {};
+        String(raw || '').split(',').forEach(function (part) {
+          var bits = part.trim().split(':');
+          var id = CODE_TO_APP[(bits[0] || '').toUpperCase()];
+          if (!id) return;
+          if ((bits[1] || '').toLowerCase() === 'x') { apps[id] = { installed: false }; return; }
+          apps[id] = { installed: true, versionCode: num(bits[1]), swBuild: num(bits[2]) };
+        });
+        return apps;
+      }
+
+      function loadHandoff() {
+        var params = new URLSearchParams(window.location.search || '');
+        var raw = params.get('installed');
+        if (raw) {
+          var snap = { ts: Date.now(), from: CODE_TO_APP[(params.get('from') || '').toUpperCase()] || '', apps: parseInstalledParam(raw) };
+          writeJson(HANDOFF_KEY, snap);
+          try {
+            params.delete('installed');
+            params.delete('from');
+            var qs = params.toString();
+            history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
+          } catch (e) {}
+          return snap;
+        }
+        return readJson(HANDOFF_KEY);
+      }
+
+      function historyOf(app) {
+        var h = (app && Array.isArray(app.releaseHistory)) ? app.releaseHistory.slice() : [];
+        if (!h.length && app && app.sha256) {
+          h.push({ seq: app.releaseSeq || 1, androidVersionCode: app.androidVersionCode, swBuild: app.swBuild, sha256: app.sha256, updatedAt: app.updatedAt || manifest.updatedAt, notes: app.whatsNew || [] });
+        }
+        h.sort(function (a, b) { return (+a.seq || 0) - (+b.seq || 0); });
+        return h;
+      }
+
+      function isNewer(entry, local) {
+        var lvc = num(local.versionCode), evc = num(entry.androidVersionCode);
+        if (lvc !== null && lvc >= VERSION_CODE_FLOOR && evc !== null) return evc > lvc;
+        var lsw = num(local.swBuild), esw = num(entry.swBuild);
+        if (lsw !== null && esw !== null) return esw > lsw;
+        return null;
+      }
+
+      function buildLabel(e) {
+        if (!e) return '';
+        if (num(e.androidVersionCode) !== null && +e.androidVersionCode >= VERSION_CODE_FLOOR) return 'Build ' + e.androidVersionCode;
+        if (num(e.swBuild) !== null) return 'Build v' + e.swBuild;
+        return e.seq ? 'Release #' + e.seq : '';
+      }
+
+      function computeStatus(local, app) {
+        var hist = historyOf(app);
+        var latest = hist[hist.length - 1] || null;
+        var res = { state: 'UNKNOWN', behindCount: null, latest: latest, current: null, missed: [] };
+        if (!latest || !local) return res;
+        if (local.installed === false) { res.state = 'NOT_INSTALLED'; return res; }
+        var i;
+        if (local.sha256) {
+          for (i = hist.length - 1; i >= 0; i--) {
+            if (hist[i].sha256 === local.sha256) {
+              res.current = hist[i];
+              res.missed = hist.slice(i + 1).reverse();
+              res.behindCount = res.missed.length;
+              res.state = res.behindCount ? 'BEHIND' : 'UP_TO_DATE';
+              return res;
+            }
+          }
+        }
+        var decided = 0;
+        for (i = 0; i < hist.length; i++) {
+          var r = isNewer(hist[i], local);
+          if (r === true) { res.missed.push(hist[i]); decided++; }
+          else if (r === false) { res.current = hist[i]; decided++; }
+        }
+        if (!decided) return res;
+        res.missed.reverse();
+        res.behindCount = res.missed.length;
+        res.state = res.behindCount ? 'BEHIND' : 'UP_TO_DATE';
+        return res;
+      }
+
+      function collectNotes(entries, max) {
+        var seen = {}, out = [];
+        entries.forEach(function (e) {
+          (e && e.notes || []).forEach(function (n) {
+            var s = String(n || '').trim();
+            if (s && !seen[s.toLowerCase()]) { seen[s.toLowerCase()] = true; out.push(s); }
+          });
+        });
+        return { notes: out.slice(0, max), more: Math.max(0, out.length - max) };
+      }
+
+      function shortDate(iso) {
+        var t = Date.parse(iso || '');
+        if (!isFinite(t)) return '';
+        return new Date(t).toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+      }
+
+      function relativeTime(iso) {
+        var t = Date.parse(iso || '');
+        if (!isFinite(t)) return '';
+        var mins = Math.max(0, Math.round((Date.now() - t) / 60000));
+        if (mins < 1) return 'just now';
+        if (mins < 60) return mins + 'm ago';
+        var hrs = Math.round(mins / 60);
+        if (hrs < 48) return hrs + 'h ago';
+        return Math.round(hrs / 24) + 'd ago';
+      }
+
+      function localFor(appId, handoff, ledger) {
+        var h = handoff && handoff.apps ? handoff.apps[appId] : null;
+        var l = ledger ? ledger[appId] : null;
+        if (l && (!h || (l.ts || 0) > (handoff.ts || 0))) {
+          return { info: { installed: true, sha256: l.sha256, versionCode: l.androidVersionCode, swBuild: l.swBuild }, source: 'DOWNLOAD' };
+        }
+        if (h) return { info: h, source: 'DEVICE' };
+        return { info: null, source: 'NONE' };
+      }
+
+      function pillHtml(st) {
+        if (st.state === 'UP_TO_DATE') return '<span class="pill ok">✅ Up to Date</span>';
+        if (st.state === 'BEHIND') return '<span class="pill warn">⬆️ ' + st.behindCount + ' Update' + (st.behindCount === 1 ? '' : 's') + ' Behind</span>';
+        if (st.state === 'NOT_INSTALLED') return '<span class="pill muted">📥 Not Installed</span>';
+        return st.latest ? '<span class="pill">🆕 Latest: ' + esc(buildLabel(st.latest)) + '</span>' : '';
+      }
+
+      function whatsNewHtml(st) {
+        if (!st.latest) return '';
+        var behind = st.state === 'BEHIND';
+        var picked = behind ? collectNotes(st.missed, 4) : collectNotes([st.latest], 4);
+        if (!picked.notes.length) return '';
+        var title = behind
+          ? '🆕 What you’ll get by updating (' + st.missed.length + ' update' + (st.missed.length === 1 ? '' : 's') + ')'
+          : (st.state === 'UP_TO_DATE' ? '✨ What’s new in your current build' : '🆕 What’s new in the latest build');
+        var stamp = [buildLabel(st.latest), shortDate(st.latest.updatedAt)].filter(Boolean).join(' · ');
+        return '<div class="whatsnew' + (behind ? ' behind' : '') + '">' +
+          '<div class="wn-head"><span>' + esc(title) + '</span><span class="wn-stamp">' + esc(stamp) + '</span></div>' +
+          '<ul>' + picked.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') +
+          (picked.more ? '<li class="more">…and ' + picked.more + ' more improvement' + (picked.more === 1 ? '' : 's') + '</li>' : '') +
+          '</ul></div>';
+      }
+
+      function render() {
+        if (!manifest || !manifest.apps) return;
+        var handoff = readJson(HANDOFF_KEY);
+        var ledger = readJson(LEDGER_KEY) || {};
+        var counts = { known: 0, behind: 0, upToDate: 0, notInstalled: 0, fromDevice: false };
+
+        Object.keys(CARD_TO_APP).forEach(function (cardId) {
+          var appId = CARD_TO_APP[cardId];
+          var app = manifest.apps[appId];
+          var card = document.getElementById(cardId);
+          if (!app || !card) return;
+          var loc = localFor(appId, handoff, ledger);
+          var st = computeStatus(loc.info, app);
+          if (st.state === 'UP_TO_DATE' || st.state === 'BEHIND') counts.known++;
+          if (st.state === 'BEHIND') counts.behind++;
+          if (st.state === 'UP_TO_DATE') counts.upToDate++;
+          if (st.state === 'NOT_INSTALLED') counts.notInstalled++;
+          if (loc.source === 'DEVICE') counts.fromDevice = true;
+
+          var srcTxt = '';
+          if (st.current && loc.source === 'DEVICE') srcTxt = 'On your device: ' + buildLabel(st.current);
+          else if (st.current && loc.source === 'DOWNLOAD') srcTxt = 'Last downloaded here: ' + buildLabel(st.current);
+          else if (st.latest) srcTxt = 'Published ' + relativeTime(st.latest.updatedAt || manifest.updatedAt);
+
+          var host = card.querySelector('.ll-status-host');
+          if (!host) {
+            host = document.createElement('div');
+            host.className = 'll-status-host';
+            var meta = card.querySelector('.meta');
+            meta.parentNode.insertBefore(host, meta);
+          }
+          host.innerHTML = '<div class="status-row">' + pillHtml(st) + (srcTxt ? '<span class="status-src">' + esc(srcTxt) + '</span>' : '') + '</div>' + whatsNewHtml(st);
+
+          var metaSpans = card.querySelectorAll('.meta span');
+          if (metaSpans[1] && app.sizeMb) metaSpans[1].textContent = app.sizeMb + ' MB';
+          if (metaSpans[2] && app.sha256) metaSpans[2].textContent = 'SHA256: ' + app.sha256;
+
+          var btn = card.querySelector('.dl-btn');
+          if (btn) {
+            if (app.apkUrl) btn.href = app.apkUrl;
+            btn.classList.remove('is-current', 'is-behind');
+            if (st.state === 'UP_TO_DATE') { btn.textContent = '✓ Up to Date · Re-download .APK'; btn.classList.add('is-current'); }
+            else if (st.state === 'BEHIND') { btn.textContent = '⬆️ Update .APK (' + st.behindCount + ' Behind)'; btn.classList.add('is-behind'); }
+            else if (st.state === 'NOT_INSTALLED') btn.textContent = '⬇️ Install Android .APK (v' + (app.version || '1.1.0') + ')';
+            else btn.textContent = '⬇️ Download Android .APK (v' + (app.version || '1.1.0') + ')';
+          }
+        });
+
+        var summary = document.getElementById('suite-status-summary');
+        if (!summary) return;
+        var parts = [];
+        if (counts.behind) parts.push('<span class="pill warn">⬆️ ' + counts.behind + ' app' + (counts.behind === 1 ? ' has an update' : 's have updates') + ' waiting</span>');
+        else if (counts.known) parts.push('<span class="pill ok">✅ ' + (counts.known === 1 ? 'Your installed app is' : 'All ' + counts.known + ' installed apps are') + ' up to date</span>');
+        else parts.push('<span class="pill tip">🆕 Tip: open <strong>Suite Hub → Open All-5 Beta Hub</strong> inside any app to see your install status here</span>');
+        if (counts.notInstalled && counts.fromDevice) parts.push('<span class="pill muted">📥 ' + counts.notInstalled + ' not installed yet</span>');
+        if (manifest.updatedAt) parts.push('<span class="pill time">Last update published ' + esc(relativeTime(manifest.updatedAt)) + '</span>');
+        summary.innerHTML = parts.join('');
+        summary.hidden = false;
+      }
+
+      loadHandoff();
+
+      Array.prototype.forEach.call(document.querySelectorAll('.dl-btn'), function (btn) {
+        btn.addEventListener('click', function () {
+          var card = btn.closest('.card');
+          var appId = card ? CARD_TO_APP[card.id] : null;
+          var app = appId && manifest && manifest.apps ? manifest.apps[appId] : null;
+          if (!app) return;
+          var ledger = readJson(LEDGER_KEY) || {};
+          ledger[appId] = { sha256: app.sha256, androidVersionCode: app.androidVersionCode, swBuild: app.swBuild, ts: Date.now() };
+          writeJson(LEDGER_KEY, ledger);
+          setTimeout(render, 50);
+        });
+      });
+
+      fetch('./manifest.json', { cache: 'no-store' })
+        .then(function (res) { return res.ok ? res.json() : null; })
+        .then(function (json) { if (json && json.apps) { manifest = json; render(); } })
+        .catch(function () {});
     })();
   </script>
 </body>
