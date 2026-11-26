@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T13:23:46Z",
+  "updatedAt": "2026-11-26T14:10:06Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "6605359ce267",
+      "sha256": "8bfe1cb45e28",
       "sizeMb": "9.53",
       "releaseHistory": [
         {
@@ -209,24 +209,33 @@
             "Fixed Calm-mode rig sync, Legends/Quick-Start preset hydration, PCB->GRBL G-code & Vellum contrast",
             "Fixed all Omnibox/⌘K/Cockpit routes, child CAD modal z-index stacking & scoped 1:1 print/PDF sheets"
           ]
+        },
+        {
+          "seq": 18,
+          "androidVersionCode": 2123,
+          "swBuild": 779,
+          "sha256": "8bfe1cb45e28",
+          "sizeMb": "9.53",
+          "updatedAt": "2026-11-26T14:10:06Z",
+          "notes": [
+            "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
+          ]
         }
       ],
-      "releaseSeq": 17,
-      "androidVersionCode": 2122,
-      "swBuild": 778,
-      "updatedAt": "2026-11-26T13:23:46Z",
+      "releaseSeq": 18,
+      "androidVersionCode": 2123,
+      "swBuild": 779,
+      "updatedAt": "2026-11-26T14:10:06Z",
       "whatsNew": [
-        "Fixed G&L PTB floating ground, Modern/'50s tone lug wiring & loaded multimeter math",
-        "Fixed Calm-mode rig sync, Legends/Quick-Start preset hydration, PCB->GRBL G-code & Vellum contrast",
-        "Fixed all Omnibox/⌘K/Cockpit routes, child CAD modal z-index stacking & scoped 1:1 print/PDF sheets"
+        "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
       ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "05fc029f432b",
-      "sizeMb": "8.36",
+      "sha256": "ac634f02141d",
+      "sizeMb": "8.37",
       "releaseHistory": [
         {
           "seq": 1,
@@ -351,21 +360,36 @@
           "notes": [
             "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
           ]
+        },
+        {
+          "seq": 12,
+          "androidVersionCode": 2054,
+          "swBuild": 463,
+          "sha256": "ac634f02141d",
+          "sizeMb": "8.37",
+          "updatedAt": "2026-11-26T14:10:06Z",
+          "notes": [
+            "Fixed 7/8-string ERG & Baritone/Banjo/Uke presets plus Presence, Klon Treble, Muff Tilt & Fluence -6 dB DSP",
+            "Fixed Silent Tuner screen unmute, custom .NAM/IR live monitor, Stereo ADT custom amps & HoloRoom LUFS",
+            "Fixed .tfproj/.llbundle full session restore, GP->ScoreForge button, modal Back/Escape & Daylight Vellum contrast"
+          ]
         }
       ],
-      "releaseSeq": 11,
-      "androidVersionCode": 2053,
-      "swBuild": 462,
-      "updatedAt": "2026-11-26T13:23:46Z",
+      "releaseSeq": 12,
+      "androidVersionCode": 2054,
+      "swBuild": 463,
+      "updatedAt": "2026-11-26T14:10:06Z",
       "whatsNew": [
-        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+        "Fixed 7/8-string ERG & Baritone/Banjo/Uke presets plus Presence, Klon Treble, Muff Tilt & Fluence -6 dB DSP",
+        "Fixed Silent Tuner screen unmute, custom .NAM/IR live monitor, Stereo ADT custom amps & HoloRoom LUFS",
+        "Fixed .tfproj/.llbundle full session restore, GP->ScoreForge button, modal Back/Escape & Daylight Vellum contrast"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "7057ea11244e",
+      "sha256": "c6d798e397ad",
       "sizeMb": "8.15",
       "releaseHistory": [
         {
@@ -516,21 +540,32 @@
           "notes": [
             "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
           ]
+        },
+        {
+          "seq": 14,
+          "androidVersionCode": 2080,
+          "swBuild": 80,
+          "sha256": "c6d798e397ad",
+          "sizeMb": "8.15",
+          "updatedAt": "2026-11-26T14:10:06Z",
+          "notes": [
+            "Synced Guitar Pro ScoreForge button, importer Escape/backdrop close & raw Hi-Z Pocket Strobe widget"
+          ]
         }
       ],
-      "releaseSeq": 13,
-      "androidVersionCode": 2079,
-      "swBuild": 79,
-      "updatedAt": "2026-11-26T13:23:46Z",
+      "releaseSeq": 14,
+      "androidVersionCode": 2080,
+      "swBuild": 80,
+      "updatedAt": "2026-11-26T14:10:06Z",
       "whatsNew": [
-        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+        "Synced Guitar Pro ScoreForge button, importer Escape/backdrop close & raw Hi-Z Pocket Strobe widget"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "03268d3a3e09",
+      "sha256": "12f8cee10fdc",
       "sizeMb": "8.85",
       "releaseHistory": [
         {
@@ -681,21 +716,32 @@
           "notes": [
             "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
           ]
+        },
+        {
+          "seq": 14,
+          "androidVersionCode": 2065,
+          "swBuild": 65,
+          "sha256": "12f8cee10fdc",
+          "sizeMb": "8.85",
+          "updatedAt": "2026-11-26T14:10:06Z",
+          "notes": [
+            "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
+          ]
         }
       ],
-      "releaseSeq": 13,
-      "androidVersionCode": 2064,
-      "swBuild": 64,
-      "updatedAt": "2026-11-26T13:23:46Z",
+      "releaseSeq": 14,
+      "androidVersionCode": 2065,
+      "swBuild": 65,
+      "updatedAt": "2026-11-26T14:10:06Z",
       "whatsNew": [
-        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+        "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "99f8f923dad5",
+      "sha256": "b38b416a2108",
       "sizeMb": "7.86",
       "releaseHistory": [
         {
@@ -810,14 +856,25 @@
           "notes": [
             "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
           ]
+        },
+        {
+          "seq": 11,
+          "androidVersionCode": 2022,
+          "swBuild": 117,
+          "sha256": "b38b416a2108",
+          "sizeMb": "7.86",
+          "updatedAt": "2026-11-26T14:10:06Z",
+          "notes": [
+            "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
+          ]
         }
       ],
-      "releaseSeq": 10,
-      "androidVersionCode": 2021,
-      "swBuild": 116,
-      "updatedAt": "2026-11-26T13:23:46Z",
+      "releaseSeq": 11,
+      "androidVersionCode": 2022,
+      "swBuild": 117,
+      "updatedAt": "2026-11-26T14:10:06Z",
       "whatsNew": [
-        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+        "Synced Suite Back/Escape stack, Daylight Vellum styles & raw Hi-Z Pocket Strobe widget constraints"
       ]
     }
   },
