@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T21:37:38Z",
+  "updatedAt": "2026-11-26T21:58:51Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "6612b762e74b",
+      "sha256": "b6b9b5a46ff9",
       "sizeMb": "9.53",
       "releaseHistory": [
         {
@@ -253,14 +253,27 @@
           "notes": [
             "Synced EarForge Psychoacoustics Lab Drawer telemetry/tools, Vellum daylight rules & BT footswitch guards"
           ]
+        },
+        {
+          "seq": 22,
+          "androidVersionCode": 2127,
+          "swBuild": 783,
+          "sha256": "b6b9b5a46ff9",
+          "sizeMb": "9.53",
+          "updatedAt": "2026-11-26T21:58:51Z",
+          "notes": [
+            "Clarified '1. Pickups & Wire Color Code' with a Wire Color Scheme explainer & Unknown Wires wizard button",
+            "Added 'Wire Colors:' label and live colored-dot Lead Swatch bar (Hot, Split, Ground / +9V) on each slot"
+          ]
         }
       ],
-      "releaseSeq": 21,
-      "androidVersionCode": 2126,
-      "swBuild": 782,
-      "updatedAt": "2026-11-26T21:37:38Z",
+      "releaseSeq": 22,
+      "androidVersionCode": 2127,
+      "swBuild": 783,
+      "updatedAt": "2026-11-26T21:58:51Z",
       "whatsNew": [
-        "Synced EarForge Psychoacoustics Lab Drawer telemetry/tools, Vellum daylight rules & BT footswitch guards"
+        "Clarified '1. Pickups & Wire Color Code' with a Wire Color Scheme explainer & Unknown Wires wizard button",
+        "Added 'Wire Colors:' label and live colored-dot Lead Swatch bar (Hot, Split, Ground / +9V) on each slot"
       ]
     },
     "TONEFORGE": {
