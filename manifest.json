@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T11:51:53Z",
+  "updatedAt": "2026-11-26T13:23:46Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "f82bb770581f",
-      "sizeMb": "9.52",
+      "sha256": "6605359ce267",
+      "sizeMb": "9.53",
       "releaseHistory": [
         {
           "seq": 1,
@@ -196,22 +196,36 @@
             "Automatic launch update check prompts with What's New & one-tap in-place update",
             "Skip-this-build & Later options plus sibling app update alerts"
           ]
+        },
+        {
+          "seq": 17,
+          "androidVersionCode": 2122,
+          "swBuild": 778,
+          "sha256": "6605359ce267",
+          "sizeMb": "9.53",
+          "updatedAt": "2026-11-26T13:23:46Z",
+          "notes": [
+            "Fixed G&L PTB floating ground, Modern/'50s tone lug wiring & loaded multimeter math",
+            "Fixed Calm-mode rig sync, Legends/Quick-Start preset hydration, PCB->GRBL G-code & Vellum contrast",
+            "Fixed all Omnibox/⌘K/Cockpit routes, child CAD modal z-index stacking & scoped 1:1 print/PDF sheets"
+          ]
         }
       ],
-      "releaseSeq": 16,
-      "androidVersionCode": 2121,
-      "swBuild": 777,
-      "updatedAt": "2026-11-26T11:51:53Z",
+      "releaseSeq": 17,
+      "androidVersionCode": 2122,
+      "swBuild": 778,
+      "updatedAt": "2026-11-26T13:23:46Z",
       "whatsNew": [
-        "Automatic launch update check prompts with What's New & one-tap in-place update",
-        "Skip-this-build & Later options plus sibling app update alerts"
+        "Fixed G&L PTB floating ground, Modern/'50s tone lug wiring & loaded multimeter math",
+        "Fixed Calm-mode rig sync, Legends/Quick-Start preset hydration, PCB->GRBL G-code & Vellum contrast",
+        "Fixed all Omnibox/⌘K/Cockpit routes, child CAD modal z-index stacking & scoped 1:1 print/PDF sheets"
       ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "21d5bd5bf227",
+      "sha256": "05fc029f432b",
       "sizeMb": "8.36",
       "releaseHistory": [
         {
@@ -326,22 +340,32 @@
             "Automatic launch update check prompts with What's New & one-tap in-place update",
             "Skip-this-build & Later options plus sibling app update alerts"
           ]
+        },
+        {
+          "seq": 11,
+          "androidVersionCode": 2053,
+          "swBuild": 462,
+          "sha256": "05fc029f432b",
+          "sizeMb": "8.36",
+          "updatedAt": "2026-11-26T13:23:46Z",
+          "notes": [
+            "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+          ]
         }
       ],
-      "releaseSeq": 10,
-      "androidVersionCode": 2052,
-      "swBuild": 461,
-      "updatedAt": "2026-11-26T11:51:53Z",
+      "releaseSeq": 11,
+      "androidVersionCode": 2053,
+      "swBuild": 462,
+      "updatedAt": "2026-11-26T13:23:46Z",
       "whatsNew": [
-        "Automatic launch update check prompts with What's New & one-tap in-place update",
-        "Skip-this-build & Later options plus sibling app update alerts"
+        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "1c6e4c3c73c2",
+      "sha256": "7057ea11244e",
       "sizeMb": "8.15",
       "releaseHistory": [
         {
@@ -481,22 +505,32 @@
             "Automatic launch update check prompts with What's New & one-tap in-place update",
             "Skip-this-build & Later options plus sibling app update alerts"
           ]
+        },
+        {
+          "seq": 13,
+          "androidVersionCode": 2079,
+          "swBuild": 79,
+          "sha256": "7057ea11244e",
+          "sizeMb": "8.15",
+          "updatedAt": "2026-11-26T13:23:46Z",
+          "notes": [
+            "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+          ]
         }
       ],
-      "releaseSeq": 12,
-      "androidVersionCode": 2078,
-      "swBuild": 78,
-      "updatedAt": "2026-11-26T11:51:53Z",
+      "releaseSeq": 13,
+      "androidVersionCode": 2079,
+      "swBuild": 79,
+      "updatedAt": "2026-11-26T13:23:46Z",
       "whatsNew": [
-        "Automatic launch update check prompts with What's New & one-tap in-place update",
-        "Skip-this-build & Later options plus sibling app update alerts"
+        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "56d16b54a2e5",
+      "sha256": "03268d3a3e09",
       "sizeMb": "8.85",
       "releaseHistory": [
         {
@@ -636,23 +670,33 @@
             "Automatic launch update check prompts with What's New & one-tap in-place update",
             "Skip-this-build & Later options plus sibling app update alerts"
           ]
+        },
+        {
+          "seq": 13,
+          "androidVersionCode": 2064,
+          "swBuild": 64,
+          "sha256": "03268d3a3e09",
+          "sizeMb": "8.85",
+          "updatedAt": "2026-11-26T13:23:46Z",
+          "notes": [
+            "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+          ]
         }
       ],
-      "releaseSeq": 12,
-      "androidVersionCode": 2063,
-      "swBuild": 63,
-      "updatedAt": "2026-11-26T11:51:53Z",
+      "releaseSeq": 13,
+      "androidVersionCode": 2064,
+      "swBuild": 64,
+      "updatedAt": "2026-11-26T13:23:46Z",
       "whatsNew": [
-        "Automatic launch update check prompts with What's New & one-tap in-place update",
-        "Skip-this-build & Later options plus sibling app update alerts"
+        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "76bc6e36b5d7",
-      "sizeMb": "7.85",
+      "sha256": "99f8f923dad5",
+      "sizeMb": "7.86",
       "releaseHistory": [
         {
           "seq": 1,
@@ -755,15 +799,25 @@
             "Automatic launch update check prompts with What's New & one-tap in-place update",
             "Skip-this-build & Later options plus sibling app update alerts"
           ]
+        },
+        {
+          "seq": 10,
+          "androidVersionCode": 2021,
+          "swBuild": 116,
+          "sha256": "99f8f923dad5",
+          "sizeMb": "7.86",
+          "updatedAt": "2026-11-26T13:23:46Z",
+          "notes": [
+            "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
+          ]
         }
       ],
-      "releaseSeq": 9,
-      "androidVersionCode": 2020,
-      "swBuild": 115,
-      "updatedAt": "2026-11-26T11:51:53Z",
+      "releaseSeq": 10,
+      "androidVersionCode": 2021,
+      "swBuild": 116,
+      "updatedAt": "2026-11-26T13:23:46Z",
       "whatsNew": [
-        "Automatic launch update check prompts with What's New & one-tap in-place update",
-        "Skip-this-build & Later options plus sibling app update alerts"
+        "Synced Suite Omnibox, Back/Escape modal stack, multi-page PDF export & Vellum contrast fixes"
       ]
     }
   },
