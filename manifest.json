@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T21:58:51Z",
+  "updatedAt": "2026-11-26T22:24:03Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "b6b9b5a46ff9",
-      "sizeMb": "9.53",
+      "sha256": "920a3db42b61",
+      "sizeMb": "9.55",
       "releaseHistory": [
         {
           "seq": 1,
@@ -265,15 +265,27 @@
             "Clarified '1. Pickups & Wire Color Code' with a Wire Color Scheme explainer & Unknown Wires wizard button",
             "Added 'Wire Colors:' label and live colored-dot Lead Swatch bar (Hot, Split, Ground / +9V) on each slot"
           ]
+        },
+        {
+          "seq": 23,
+          "androidVersionCode": 2128,
+          "swBuild": 784,
+          "sha256": "920a3db42b61",
+          "sizeMb": "9.55",
+          "updatedAt": "2026-11-26T22:24:03Z",
+          "notes": [
+            "Upgraded 3D X-Ray Cutaway to pull exact 1:1 CAD body splines (190-220 pts), cavities, F-holes & carved tops",
+            "Added 3D cylindrical pots/DPDTs, 12-pole pickups, Weight Relief X-Ray toggle & Live Wide-Body CAD sync"
+          ]
         }
       ],
-      "releaseSeq": 22,
-      "androidVersionCode": 2127,
-      "swBuild": 783,
-      "updatedAt": "2026-11-26T21:58:51Z",
+      "releaseSeq": 23,
+      "androidVersionCode": 2128,
+      "swBuild": 784,
+      "updatedAt": "2026-11-26T22:24:03Z",
       "whatsNew": [
-        "Clarified '1. Pickups & Wire Color Code' with a Wire Color Scheme explainer & Unknown Wires wizard button",
-        "Added 'Wire Colors:' label and live colored-dot Lead Swatch bar (Hot, Split, Ground / +9V) on each slot"
+        "Upgraded 3D X-Ray Cutaway to pull exact 1:1 CAD body splines (190-220 pts), cavities, F-holes & carved tops",
+        "Added 3D cylindrical pots/DPDTs, 12-pole pickups, Weight Relief X-Ray toggle & Live Wide-Body CAD sync"
       ]
     },
     "TONEFORGE": {
