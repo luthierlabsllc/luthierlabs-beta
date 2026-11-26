@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T10:06:48Z",
+  "updatedAt": "2026-11-26T10:50:40Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -457,8 +457,8 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "fda2d098668a",
-      "sizeMb": "8.83",
+      "sha256": "752700f5d86f",
+      "sizeMb": "8.84",
       "releaseHistory": [
         {
           "seq": 1,
@@ -574,15 +574,25 @@
             "Added labeled Report Issue button & Phone Toolbox flight log entry",
             "Diagnostics now attach live tuning, slider & String Health state"
           ]
+        },
+        {
+          "seq": 11,
+          "androidVersionCode": 2062,
+          "swBuild": 62,
+          "sha256": "752700f5d86f",
+          "sizeMb": "8.84",
+          "updatedAt": "2026-11-26T10:50:40Z",
+          "notes": [
+            "Guided Open-Strum, First-Fret Nut & Floating Tremolo Wizard (real-time mic auto-capture, Frets 0-3 single-string walkthr"
+          ]
         }
       ],
-      "releaseSeq": 10,
-      "androidVersionCode": 2061,
-      "swBuild": 61,
-      "updatedAt": "2026-11-26T02:48:59Z",
+      "releaseSeq": 11,
+      "androidVersionCode": 2062,
+      "swBuild": 62,
+      "updatedAt": "2026-11-26T10:50:40Z",
       "whatsNew": [
-        "Added labeled Report Issue button & Phone Toolbox flight log entry",
-        "Diagnostics now attach live tuning, slider & String Health state"
+        "Guided Open-Strum, First-Fret Nut & Floating Tremolo Wizard (real-time mic auto-capture, Frets 0-3 single-string walkthr"
       ]
     },
     "EARFORGE": {
