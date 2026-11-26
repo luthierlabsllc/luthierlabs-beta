@@ -335,6 +335,82 @@
       line-height: 1.45;
     }
     .whatsnew li.more { color: var(--muted); }
+    .whatsnew.clickable { cursor: pointer; transition: border-color 140ms ease; }
+    .whatsnew.clickable:hover { border-color: #38bdf8; }
+    .wn-hint {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 10px;
+      font-weight: 800;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    #wn-history {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(2, 6, 23, .72);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px;
+    }
+    .wn-hist-card {
+      width: 100%;
+      max-width: 520px;
+      max-height: 85vh;
+      overflow: auto;
+      background: #07131d;
+      border: 1.5px solid #38bdf8;
+      border-radius: 12px;
+      padding: 14px;
+      color: #f8fafc;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, .6);
+    }
+    .wn-hist-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .wn-hist-title {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 13px;
+      font-weight: 900;
+      color: #fde68a;
+    }
+    .wn-hist-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+    .wn-hist-close {
+      padding: 5px 10px;
+      border-radius: 7px;
+      border: 1px solid #64748b;
+      background: #1e293b;
+      color: #f8fafc;
+      font-size: 12px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .wn-hist-entry {
+      background: #040814;
+      border: 1px solid #1e3a5f;
+      border-radius: 10px;
+      padding: 9px 11px;
+      margin-top: 8px;
+    }
+    .wn-hist-entry.latest { border-color: #a16207; }
+    .wn-hist-entry.installed { border-color: #065f46; }
+    .wn-chip {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 99px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 9.5px;
+      font-weight: 900;
+      margin-left: 5px;
+    }
+    .wn-chip.latest { background: #422808; border: 1px solid #fbbf24; color: #fde68a; }
+    .wn-chip.installed { background: #064e3b; border: 1px solid #34d399; color: #a7f3d0; }
     .dl-btn.is-current {
       border-color: #334155;
       background: #0f172a;
@@ -394,7 +470,7 @@
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL GuitarForge</span>
             <span>9.48 MB</span>
-            <span>SHA256: 915bd754d9da</span>
+            <span>SHA256: 8d65b9fe9946</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -421,8 +497,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL ToneForge</span>
-            <span>8.34 MB</span>
-            <span>SHA256: 0260dbf8a376</span>
+            <span>8.35 MB</span>
+            <span>SHA256: 07f5c168af90</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -450,7 +526,7 @@
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL FretForge</span>
             <span>8.12 MB</span>
-            <span>SHA256: d824b37e9a90</span>
+            <span>SHA256: 7b282d70b61c</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -478,7 +554,7 @@
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL Strobe Tuner</span>
             <span>8.81 MB</span>
-            <span>SHA256: 5f2af0a04c2b</span>
+            <span>SHA256: 51e9d67c64c1</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -505,8 +581,8 @@
         <div>
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL EarForge</span>
-            <span>7.84 MB</span>
-            <span>SHA256: 68349b311e90</span>
+            <span>7.85 MB</span>
+            <span>SHA256: e00830206edf</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -588,8 +664,10 @@
       var HANDOFF_KEY = 'll_beta_hub_installed_v1';
       var LEDGER_KEY = 'll_beta_hub_dl_ledger_v1';
       var CARD_TO_APP = { guitarforge: 'GUITARFORGE', toneforge: 'TONEFORGE', fretforge: 'FRETFORGE', strobe: 'PRECISION_STROBE', earforge: 'EARFORGE' };
+      var APP_TO_CARD = { GUITARFORGE: 'guitarforge', TONEFORGE: 'toneforge', FRETFORGE: 'fretforge', PRECISION_STROBE: 'strobe', EARFORGE: 'earforge' };
       var CODE_TO_APP = { GF: 'GUITARFORGE', TF: 'TONEFORGE', FF: 'FRETFORGE', PS: 'PRECISION_STROBE', EF: 'EARFORGE' };
       var manifest = null;
+      var lastStatus = {};
 
       function esc(s) {
         return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -735,7 +813,7 @@
         return st.latest ? '<span class="pill">🆕 Latest: ' + esc(buildLabel(st.latest)) + '</span>' : '';
       }
 
-      function whatsNewHtml(st) {
+      function whatsNewHtml(st, appId) {
         if (!st.latest) return '';
         var behind = st.state === 'BEHIND';
         var picked = behind ? collectNotes(st.missed, 4) : collectNotes([st.latest], 4);
@@ -744,11 +822,61 @@
           ? '🆕 What you’ll get by updating (' + st.missed.length + ' update' + (st.missed.length === 1 ? '' : 's') + ')'
           : (st.state === 'UP_TO_DATE' ? '✨ What’s new in your current build' : '🆕 What’s new in the latest build');
         var stamp = [buildLabel(st.latest), shortDate(st.latest.updatedAt)].filter(Boolean).join(' · ');
-        return '<div class="whatsnew' + (behind ? ' behind' : '') + '">' +
+        var histLen = (appId && manifest && manifest.apps && manifest.apps[appId]) ? historyOf(manifest.apps[appId]).length : 0;
+        var clickable = histLen > 0;
+        return '<div class="whatsnew' + (behind ? ' behind' : '') + (clickable ? ' clickable' : '') + '"' + (clickable ? (' data-app="' + esc(appId) + '" role="button" tabindex="0" title="Show the last 5 updates"') : '') + '>' +
           '<div class="wn-head"><span>' + esc(title) + '</span><span class="wn-stamp">' + esc(stamp) + '</span></div>' +
           '<ul>' + picked.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') +
           (picked.more ? '<li class="more">…and ' + picked.more + ' more improvement' + (picked.more === 1 ? '' : 's') + '</li>' : '') +
-          '</ul></div>';
+          '</ul>' +
+          (clickable ? '<div class="wn-hint">📜 Tap for last 5 updates ▸</div>' : '') +
+          '</div>';
+      }
+
+      function closeHistory() {
+        var el = document.getElementById('wn-history');
+        if (el && el.parentNode) el.parentNode.removeChild(el);
+      }
+
+      function openHistory(appId) {
+        closeHistory();
+        var app = manifest && manifest.apps ? manifest.apps[appId] : null;
+        if (!app) return;
+        var allHist = historyOf(app);
+        if (!allHist.length) return;
+        var entries = allHist.slice(-5).reverse();
+        var latest = allHist[allHist.length - 1];
+        var st = lastStatus[appId] || {};
+        var cur = st.current || null;
+        var card = document.getElementById(APP_TO_CARD[appId] || '');
+        var hEl = card ? card.querySelector('.card-title, h2, h3') : null;
+        var appName = hEl ? String(hEl.textContent || '').trim() : appId;
+
+        var rows = entries.map(function (e) {
+          var notes = (Array.isArray(e.notes) ? e.notes : []).map(function (n) { return String(n || '').trim(); }).filter(Boolean);
+          if (!notes.length) notes = ['Stability & maintenance update'];
+          var isLatest = latest && e.seq === latest.seq;
+          var isInstalled = !!(cur && ((cur.sha256 && e.sha256 === cur.sha256) || (!cur.sha256 && e.seq === cur.seq)));
+          var cls = 'wn-hist-entry' + (isLatest && st.state === 'BEHIND' ? ' latest' : (isInstalled ? ' installed' : ''));
+          var chips = (isLatest ? '<span class="wn-chip latest">🆕 Latest</span>' : '') +
+            (isInstalled ? '<span class="wn-chip installed">📲 Installed</span>' : '');
+          var dt = shortDate(e.updatedAt);
+          return '<div class="' + cls + '">' +
+            '<div class="wn-head"><span>' + esc(buildLabel(e) || 'Build') + chips + '</span>' +
+            (dt ? '<span class="wn-stamp">' + esc(dt) + '</span>' : '') + '</div>' +
+            '<ul style="margin:5px 0 0; padding-left:17px; font-size:12px; color:#e2e8f0; line-height:1.45;">' +
+              notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') +
+            '</ul></div>';
+        }).join('');
+
+        var panel = document.createElement('div');
+        panel.id = 'wn-history';
+        panel.innerHTML = '<div class="wn-hist-card" role="dialog" aria-modal="true">' +
+          '<div class="wn-hist-head"><div><div class="wn-hist-title">📜 Update History — ' + esc(appName) + '</div>' +
+          '<div class="wn-hist-sub">Last ' + entries.length + ' of ' + allHist.length + ' published build' + (allHist.length === 1 ? '' : 's') + '</div></div>' +
+          '<button type="button" class="wn-hist-close" id="wn-hist-close">✕ Close</button></div>' +
+          rows + '</div>';
+        document.body.appendChild(panel);
       }
 
       function render() {
@@ -764,6 +892,7 @@
           if (!app || !card) return;
           var loc = localFor(appId, handoff, ledger);
           var st = computeStatus(loc.info, app);
+          lastStatus[appId] = st;
           if (st.state === 'UP_TO_DATE' || st.state === 'BEHIND') counts.known++;
           if (st.state === 'BEHIND') counts.behind++;
           if (st.state === 'UP_TO_DATE') counts.upToDate++;
@@ -782,7 +911,7 @@
             var meta = card.querySelector('.meta');
             meta.parentNode.insertBefore(host, meta);
           }
-          host.innerHTML = '<div class="status-row">' + pillHtml(st) + (srcTxt ? '<span class="status-src">' + esc(srcTxt) + '</span>' : '') + '</div>' + whatsNewHtml(st);
+          host.innerHTML = '<div class="status-row">' + pillHtml(st) + (srcTxt ? '<span class="status-src">' + esc(srcTxt) + '</span>' : '') + '</div>' + whatsNewHtml(st, appId);
 
           var metaSpans = card.querySelectorAll('.meta span');
           if (metaSpans[1] && app.sizeMb) metaSpans[1].textContent = app.sizeMb + ' MB';
@@ -824,6 +953,32 @@
           writeJson(LEDGER_KEY, ledger);
           setTimeout(render, 50);
         });
+      });
+
+      document.addEventListener('click', function (e) {
+        var t = e && e.target;
+        if (!t) return;
+        if (t.id === 'wn-history' || (t.closest && t.closest('#wn-hist-close'))) {
+          closeHistory();
+          return;
+        }
+        var box = t.closest ? t.closest('.whatsnew.clickable[data-app]') : null;
+        if (box) {
+          var appId = box.getAttribute('data-app');
+          if (appId) openHistory(appId);
+        }
+      });
+      document.addEventListener('keydown', function (e) {
+        if (!e) return;
+        if (e.key === 'Escape') { closeHistory(); return; }
+        if (e.key === 'Enter' || e.key === ' ') {
+          var box = e.target && e.target.closest ? e.target.closest('.whatsnew.clickable[data-app]') : null;
+          if (box) {
+            e.preventDefault();
+            var appId = box.getAttribute('data-app');
+            if (appId) openHistory(appId);
+          }
+        }
       });
 
       fetch('./manifest.json', { cache: 'no-store' })

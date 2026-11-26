@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T00:01:06Z",
+  "updatedAt": "2026-11-26T00:14:35Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "915bd754d9da",
+      "sha256": "8d65b9fe9946",
       "sizeMb": "9.48",
       "releaseHistory": [
         {
@@ -140,24 +140,33 @@
             "Added '72 Telecaster Deluxe HH (374×285mm) & '72 Telecaster Custom large pickguard outlines",
             "4-ear Jazzmaster pickup covers, '72 Wide-Range 4-screw Humbuckers, Rhythm Circuit & tail jack"
           ]
+        },
+        {
+          "seq": 12,
+          "androidVersionCode": 2117,
+          "swBuild": 773,
+          "sha256": "8d65b9fe9946",
+          "sizeMb": "9.48",
+          "updatedAt": "2026-11-26T00:14:35Z",
+          "notes": [
+            "Tap any What's New box in Suite Hub to see the last 5 updates"
+          ]
         }
       ],
-      "releaseSeq": 11,
-      "androidVersionCode": 2116,
-      "swBuild": 772,
-      "updatedAt": "2026-11-25T23:36:06Z",
+      "releaseSeq": 12,
+      "androidVersionCode": 2117,
+      "swBuild": 773,
+      "updatedAt": "2026-11-26T00:14:35Z",
       "whatsNew": [
-        "Authentic 1:1 Standard Telecaster (189×216mm) & Jazzmaster (361×256mm) pickguard blueprints",
-        "Added '72 Telecaster Deluxe HH (374×285mm) & '72 Telecaster Custom large pickguard outlines",
-        "4-ear Jazzmaster pickup covers, '72 Wide-Range 4-screw Humbuckers, Rhythm Circuit & tail jack"
+        "Tap any What's New box in Suite Hub to see the last 5 updates"
       ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "0260dbf8a376",
-      "sizeMb": "8.34",
+      "sha256": "07f5c168af90",
+      "sizeMb": "8.35",
       "releaseHistory": [
         {
           "seq": 1,
@@ -226,22 +235,32 @@
             "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
             "\"What's New\" summary for every update in Suite Hub & the Beta page"
           ]
+        },
+        {
+          "seq": 7,
+          "androidVersionCode": 2049,
+          "swBuild": 458,
+          "sha256": "07f5c168af90",
+          "sizeMb": "8.35",
+          "updatedAt": "2026-11-26T00:14:35Z",
+          "notes": [
+            "Tap any What's New box in Suite Hub to see the last 5 updates"
+          ]
         }
       ],
-      "releaseSeq": 6,
-      "androidVersionCode": 2048,
-      "swBuild": 457,
-      "updatedAt": "2026-11-25T19:14:30Z",
+      "releaseSeq": 7,
+      "androidVersionCode": 2049,
+      "swBuild": 458,
+      "updatedAt": "2026-11-26T00:14:35Z",
       "whatsNew": [
-        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
-        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+        "Tap any What's New box in Suite Hub to see the last 5 updates"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "d824b37e9a90",
+      "sha256": "7b282d70b61c",
       "sizeMb": "8.12",
       "releaseHistory": [
         {
@@ -336,24 +355,32 @@
             "Speed Ceiling ramp works live (72-136 BPM); sharper sub-buffer timing & bend grading",
             "Hidden Sim Audio test buttons behind ?debug=1 debug mode"
           ]
+        },
+        {
+          "seq": 9,
+          "androidVersionCode": 2075,
+          "swBuild": 75,
+          "sha256": "7b282d70b61c",
+          "sizeMb": "8.12",
+          "updatedAt": "2026-11-26T00:14:35Z",
+          "notes": [
+            "Tap any What's New box in Suite Hub to see the last 5 updates"
+          ]
         }
       ],
-      "releaseSeq": 8,
-      "androidVersionCode": 2074,
-      "swBuild": 74,
-      "updatedAt": "2026-11-26T00:01:06Z",
+      "releaseSeq": 9,
+      "androidVersionCode": 2075,
+      "swBuild": 75,
+      "updatedAt": "2026-11-26T00:14:35Z",
       "whatsNew": [
-        "Live Playing Check: Arm Mic Test now auto-starts mic and grades live completion",
-        "Metronome checks use a 4-beat count-in and always stop when done or cancelled",
-        "Speed Ceiling ramp works live (72-136 BPM); sharper sub-buffer timing & bend grading",
-        "Hidden Sim Audio test buttons behind ?debug=1 debug mode"
+        "Tap any What's New box in Suite Hub to see the last 5 updates"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "5f2af0a04c2b",
+      "sha256": "51e9d67c64c1",
       "sizeMb": "8.81",
       "releaseHistory": [
         {
@@ -434,23 +461,33 @@
             "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
             "\"What's New\" summary for every update in Suite Hub & the Beta page"
           ]
+        },
+        {
+          "seq": 8,
+          "androidVersionCode": 2059,
+          "swBuild": 59,
+          "sha256": "51e9d67c64c1",
+          "sizeMb": "8.81",
+          "updatedAt": "2026-11-26T00:14:35Z",
+          "notes": [
+            "Tap any What's New box in Suite Hub to see the last 5 updates"
+          ]
         }
       ],
-      "releaseSeq": 7,
-      "androidVersionCode": 2058,
-      "swBuild": 58,
-      "updatedAt": "2026-11-25T19:14:30Z",
+      "releaseSeq": 8,
+      "androidVersionCode": 2059,
+      "swBuild": 59,
+      "updatedAt": "2026-11-26T00:14:35Z",
       "whatsNew": [
-        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
-        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+        "Tap any What's New box in Suite Hub to see the last 5 updates"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "68349b311e90",
-      "sizeMb": "7.84",
+      "sha256": "e00830206edf",
+      "sizeMb": "7.85",
       "releaseHistory": [
         {
           "seq": 1,
@@ -519,15 +556,25 @@
             "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
             "\"What's New\" summary for every update in Suite Hub & the Beta page"
           ]
+        },
+        {
+          "seq": 7,
+          "androidVersionCode": 2018,
+          "swBuild": 113,
+          "sha256": "e00830206edf",
+          "sizeMb": "7.85",
+          "updatedAt": "2026-11-26T00:14:35Z",
+          "notes": [
+            "Tap any What's New box in Suite Hub to see the last 5 updates"
+          ]
         }
       ],
-      "releaseSeq": 6,
-      "androidVersionCode": 2017,
-      "swBuild": 112,
-      "updatedAt": "2026-11-25T19:14:30Z",
+      "releaseSeq": 7,
+      "androidVersionCode": 2018,
+      "swBuild": 113,
+      "updatedAt": "2026-11-26T00:14:35Z",
       "whatsNew": [
-        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
-        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+        "Tap any What's New box in Suite Hub to see the last 5 updates"
       ]
     }
   },
