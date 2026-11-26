@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T22:24:03Z",
+  "updatedAt": "2026-11-26T23:04:52Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "920a3db42b61",
+      "sha256": "ad8f2ef7e404",
       "sizeMb": "9.55",
       "releaseHistory": [
         {
@@ -277,15 +277,29 @@
             "Upgraded 3D X-Ray Cutaway to pull exact 1:1 CAD body splines (190-220 pts), cavities, F-holes & carved tops",
             "Added 3D cylindrical pots/DPDTs, 12-pole pickups, Weight Relief X-Ray toggle & Live Wide-Body CAD sync"
           ]
+        },
+        {
+          "seq": 24,
+          "androidVersionCode": 2129,
+          "swBuild": 785,
+          "sha256": "ad8f2ef7e404",
+          "sizeMb": "9.55",
+          "updatedAt": "2026-11-26T23:04:52Z",
+          "notes": [
+            "Unified pot counts across Schematic, Pictorial Pinout, Loom & 3D X-Ray (3/3 Strat, 4/4 LP, 2/2 Tele, 1/1 Direct).",
+            "Added Tone 2 (Bridge) schematic wiring & rotary dial, plus Tone Circuit Topology selector in Calm & Lab modes.",
+            "Moved Star Ground ring clear of Master Volume so zero labels or ground wires overlap potentiometer dials."
+          ]
         }
       ],
-      "releaseSeq": 23,
-      "androidVersionCode": 2128,
-      "swBuild": 784,
-      "updatedAt": "2026-11-26T22:24:03Z",
+      "releaseSeq": 24,
+      "androidVersionCode": 2129,
+      "swBuild": 785,
+      "updatedAt": "2026-11-26T23:04:52Z",
       "whatsNew": [
-        "Upgraded 3D X-Ray Cutaway to pull exact 1:1 CAD body splines (190-220 pts), cavities, F-holes & carved tops",
-        "Added 3D cylindrical pots/DPDTs, 12-pole pickups, Weight Relief X-Ray toggle & Live Wide-Body CAD sync"
+        "Unified pot counts across Schematic, Pictorial Pinout, Loom & 3D X-Ray (3/3 Strat, 4/4 LP, 2/2 Tele, 1/1 Direct).",
+        "Added Tone 2 (Bridge) schematic wiring & rotary dial, plus Tone Circuit Topology selector in Calm & Lab modes.",
+        "Moved Star Ground ring clear of Master Volume so zero labels or ground wires overlap potentiometer dials."
       ]
     },
     "TONEFORGE": {
