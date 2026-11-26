@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T08:53:54Z",
+  "updatedAt": "2026-11-26T09:30:41Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -198,7 +198,7 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "aa66130f3c29",
+      "sha256": "6e32394ad9fa",
       "sizeMb": "8.35",
       "releaseHistory": [
         {
@@ -290,14 +290,25 @@
           "notes": [
             "Added labeled Report Issue button & Phone Toolbox flight log entry"
           ]
+        },
+        {
+          "seq": 9,
+          "androidVersionCode": 2051,
+          "swBuild": 460,
+          "sha256": "6e32394ad9fa",
+          "sizeMb": "8.35",
+          "updatedAt": "2026-11-26T09:30:41Z",
+          "notes": [
+            "Fix underwater Live Mic & Live Monitor audio (broadband Cabinet IR passband, soft-knee Worklet gate, OS sample-rate sync"
+          ]
         }
       ],
-      "releaseSeq": 8,
-      "androidVersionCode": 2050,
-      "swBuild": 459,
-      "updatedAt": "2026-11-26T02:48:59Z",
+      "releaseSeq": 9,
+      "androidVersionCode": 2051,
+      "swBuild": 460,
+      "updatedAt": "2026-11-26T09:30:41Z",
       "whatsNew": [
-        "Added labeled Report Issue button & Phone Toolbox flight log entry"
+        "Fix underwater Live Mic & Live Monitor audio (broadband Cabinet IR passband, soft-knee Worklet gate, OS sample-rate sync"
       ]
     },
     "FRETFORGE": {
