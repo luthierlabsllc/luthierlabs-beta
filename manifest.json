@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T23:04:52Z",
+  "updatedAt": "2026-11-26T23:44:39Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "ad8f2ef7e404",
-      "sizeMb": "9.55",
+      "sha256": "6d15f399c9d3",
+      "sizeMb": "9.57",
       "releaseHistory": [
         {
           "seq": 1,
@@ -290,16 +290,29 @@
             "Added Tone 2 (Bridge) schematic wiring & rotary dial, plus Tone Circuit Topology selector in Calm & Lab modes.",
             "Moved Star Ground ring clear of Master Volume so zero labels or ground wires overlap potentiometer dials."
           ]
+        },
+        {
+          "seq": 25,
+          "androidVersionCode": 2130,
+          "swBuild": 786,
+          "sha256": "6d15f399c9d3",
+          "sizeMb": "9.57",
+          "updatedAt": "2026-11-26T23:44:39Z",
+          "notes": [
+            "Added PC Ctrl+Z Undo / Ctrl+Y Redo stack + toolbar buttons across wiring, pots, presets & CAD template editors.",
+            "Added Mobile Back buttons (header & thumb dock) + Android/swipe-back history to close drawers/modals or undo.",
+            "Added Load CAD File (.DXF/.SVG/.PDF/.STL/Image) into 1:1 Router Templates w/ Letter tiling & .STL/.GCODE/.DXF export."
+          ]
         }
       ],
-      "releaseSeq": 24,
-      "androidVersionCode": 2129,
-      "swBuild": 785,
-      "updatedAt": "2026-11-26T23:04:52Z",
+      "releaseSeq": 25,
+      "androidVersionCode": 2130,
+      "swBuild": 786,
+      "updatedAt": "2026-11-26T23:44:39Z",
       "whatsNew": [
-        "Unified pot counts across Schematic, Pictorial Pinout, Loom & 3D X-Ray (3/3 Strat, 4/4 LP, 2/2 Tele, 1/1 Direct).",
-        "Added Tone 2 (Bridge) schematic wiring & rotary dial, plus Tone Circuit Topology selector in Calm & Lab modes.",
-        "Moved Star Ground ring clear of Master Volume so zero labels or ground wires overlap potentiometer dials."
+        "Added PC Ctrl+Z Undo / Ctrl+Y Redo stack + toolbar buttons across wiring, pots, presets & CAD template editors.",
+        "Added Mobile Back buttons (header & thumb dock) + Android/swipe-back history to close drawers/modals or undo.",
+        "Added Load CAD File (.DXF/.SVG/.PDF/.STL/Image) into 1:1 Router Templates w/ Letter tiling & .STL/.GCODE/.DXF export."
       ]
     },
     "TONEFORGE": {
