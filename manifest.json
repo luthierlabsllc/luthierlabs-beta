@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-25T23:36:06Z",
+  "updatedAt": "2026-11-26T00:01:06Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -241,8 +241,8 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "d68576362758",
-      "sizeMb": "8.11",
+      "sha256": "d824b37e9a90",
+      "sizeMb": "8.12",
       "releaseHistory": [
         {
           "seq": 1,
@@ -322,15 +322,31 @@
             "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
             "\"What's New\" summary for every update in Suite Hub & the Beta page"
           ]
+        },
+        {
+          "seq": 8,
+          "androidVersionCode": 2074,
+          "swBuild": 74,
+          "sha256": "d824b37e9a90",
+          "sizeMb": "8.12",
+          "updatedAt": "2026-11-26T00:01:06Z",
+          "notes": [
+            "Live Playing Check: Arm Mic Test now auto-starts mic and grades live completion",
+            "Metronome checks use a 4-beat count-in and always stop when done or cancelled",
+            "Speed Ceiling ramp works live (72-136 BPM); sharper sub-buffer timing & bend grading",
+            "Hidden Sim Audio test buttons behind ?debug=1 debug mode"
+          ]
         }
       ],
-      "releaseSeq": 7,
-      "androidVersionCode": 2072,
-      "swBuild": 72,
-      "updatedAt": "2026-11-25T19:14:30Z",
+      "releaseSeq": 8,
+      "androidVersionCode": 2074,
+      "swBuild": 74,
+      "updatedAt": "2026-11-26T00:01:06Z",
       "whatsNew": [
-        "Suite Hub now shows Up to Date / N Updates Behind for all 5 apps",
-        "\"What's New\" summary for every update in Suite Hub & the Beta page"
+        "Live Playing Check: Arm Mic Test now auto-starts mic and grades live completion",
+        "Metronome checks use a 4-beat count-in and always stop when done or cancelled",
+        "Speed Ceiling ramp works live (72-136 BPM); sharper sub-buffer timing & bend grading",
+        "Hidden Sim Audio test buttons behind ?debug=1 debug mode"
       ]
     },
     "PRECISION_STROBE": {
