@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T15:24:02Z",
+  "updatedAt": "2026-11-26T19:46:59Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "10c610ba44e7",
+      "sha256": "621644e36953",
       "sizeMb": "9.53",
       "releaseHistory": [
         {
@@ -231,21 +231,32 @@
           "notes": [
             "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
           ]
+        },
+        {
+          "seq": 20,
+          "androidVersionCode": 2125,
+          "swBuild": 781,
+          "sha256": "621644e36953",
+          "sizeMb": "9.53",
+          "updatedAt": "2026-11-26T19:46:59Z",
+          "notes": [
+            "Synced Suite Lab Drawer Digital Twin scale/gauge telemetry, JamLink/Bundle/Suite modal z-index & Vellum daylight rules"
+          ]
         }
       ],
-      "releaseSeq": 19,
-      "androidVersionCode": 2124,
-      "swBuild": 780,
-      "updatedAt": "2026-11-26T15:24:02Z",
+      "releaseSeq": 20,
+      "androidVersionCode": 2125,
+      "swBuild": 781,
+      "updatedAt": "2026-11-26T19:46:59Z",
       "whatsNew": [
-        "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
+        "Synced Suite Lab Drawer Digital Twin scale/gauge telemetry, JamLink/Bundle/Suite modal z-index & Vellum daylight rules"
       ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "7b3ca0a32104",
+      "sha256": "5a4051519650",
       "sizeMb": "8.37",
       "releaseHistory": [
         {
@@ -395,21 +406,32 @@
           "notes": [
             "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
           ]
+        },
+        {
+          "seq": 14,
+          "androidVersionCode": 2056,
+          "swBuild": 465,
+          "sha256": "5a4051519650",
+          "sizeMb": "8.37",
+          "updatedAt": "2026-11-26T19:46:59Z",
+          "notes": [
+            "Synced shared Quartet DesignSystem, JamLink/Bundle/Suite modal z-index & BT footswitch guards"
+          ]
         }
       ],
-      "releaseSeq": 13,
-      "androidVersionCode": 2055,
-      "swBuild": 464,
-      "updatedAt": "2026-11-26T15:24:02Z",
+      "releaseSeq": 14,
+      "androidVersionCode": 2056,
+      "swBuild": 465,
+      "updatedAt": "2026-11-26T19:46:59Z",
       "whatsNew": [
-        "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
+        "Synced shared Quartet DesignSystem, JamLink/Bundle/Suite modal z-index & BT footswitch guards"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "e81216d4504c",
+      "sha256": "022b3a5f9dae",
       "sizeMb": "8.16",
       "releaseHistory": [
         {
@@ -584,24 +606,33 @@
             "Wired live Bluetooth Footswitch transport/looper/scenes, Tab 7 .GP/.GP5 binary upload & accurate .NAM->ToneForge rig bea",
             "Fixed standalone exercise SVG XML escaping, groove tab safety, modal Back/Escape & Daylight Vellum contrast"
           ]
+        },
+        {
+          "seq": 16,
+          "androidVersionCode": 2082,
+          "swBuild": 82,
+          "sha256": "022b3a5f9dae",
+          "sizeMb": "8.16",
+          "updatedAt": "2026-11-26T19:46:59Z",
+          "notes": [
+            "Synced Phase 7D Fix-My-Setup routing, shared Quartet DesignSystem & JamLink/Bundle/Suite modal z-index"
+          ]
         }
       ],
-      "releaseSeq": 15,
-      "androidVersionCode": 2081,
-      "swBuild": 81,
-      "updatedAt": "2026-11-26T15:24:02Z",
+      "releaseSeq": 16,
+      "androidVersionCode": 2082,
+      "swBuild": 82,
+      "updatedAt": "2026-11-26T19:46:59Z",
       "whatsNew": [
-        "Added full 7-string & 8-string ERG drills, verified 7/8-line tabs, Goal Paths & non-clipping Highway lanes",
-        "Wired live Bluetooth Footswitch transport/looper/scenes, Tab 7 .GP/.GP5 binary upload & accurate .NAM->ToneForge rig bea",
-        "Fixed standalone exercise SVG XML escaping, groove tab safety, modal Back/Escape & Daylight Vellum contrast"
+        "Synced Phase 7D Fix-My-Setup routing, shared Quartet DesignSystem & JamLink/Bundle/Suite modal z-index"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "6da0165b67ed",
-      "sizeMb": "8.85",
+      "sha256": "3f39671b1465",
+      "sizeMb": "8.86",
       "releaseHistory": [
         {
           "seq": 1,
@@ -773,21 +804,36 @@
           "notes": [
             "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
           ]
+        },
+        {
+          "seq": 16,
+          "androidVersionCode": 2067,
+          "swBuild": 67,
+          "sha256": "3f39671b1465",
+          "sizeMb": "8.86",
+          "updatedAt": "2026-11-26T19:46:59Z",
+          "notes": [
+            "Fixed Strobe Wheel & 4-Band Ladder cyan/coral thermal RGB rendering, hands-free string stepping & feedback-safe Chladni ",
+            "Added header Guitar In / BT Footswitch / Beltpack / 88-Fret Buzz controls, live 38-action footswitch handler & mobile St",
+            "Fixed Phase 7D->7A Floating Tremolo & Chromatic->Intonation deep routing, modal z-index/Back/Escape stack, Cert PDF expo"
+          ]
         }
       ],
-      "releaseSeq": 15,
-      "androidVersionCode": 2066,
-      "swBuild": 66,
-      "updatedAt": "2026-11-26T15:24:02Z",
+      "releaseSeq": 16,
+      "androidVersionCode": 2067,
+      "swBuild": 67,
+      "updatedAt": "2026-11-26T19:46:59Z",
       "whatsNew": [
-        "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
+        "Fixed Strobe Wheel & 4-Band Ladder cyan/coral thermal RGB rendering, hands-free string stepping & feedback-safe Chladni ",
+        "Added header Guitar In / BT Footswitch / Beltpack / 88-Fret Buzz controls, live 38-action footswitch handler & mobile St",
+        "Fixed Phase 7D->7A Floating Tremolo & Chromatic->Intonation deep routing, modal z-index/Back/Escape stack, Cert PDF expo"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "cf0ba1f2172a",
+      "sha256": "407af3f74d72",
       "sizeMb": "7.86",
       "releaseHistory": [
         {
@@ -924,14 +970,25 @@
           "notes": [
             "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
           ]
+        },
+        {
+          "seq": 13,
+          "androidVersionCode": 2024,
+          "swBuild": 119,
+          "sha256": "407af3f74d72",
+          "sizeMb": "7.86",
+          "updatedAt": "2026-11-26T19:46:59Z",
+          "notes": [
+            "Synced shared Quartet DesignSystem, JamLink/Bundle/Suite modal z-index & BT footswitch guards"
+          ]
         }
       ],
-      "releaseSeq": 12,
-      "androidVersionCode": 2023,
-      "swBuild": 118,
-      "updatedAt": "2026-11-26T15:24:02Z",
+      "releaseSeq": 13,
+      "androidVersionCode": 2024,
+      "swBuild": 119,
+      "updatedAt": "2026-11-26T19:46:59Z",
       "whatsNew": [
-        "Synced Suite DesignSystem Vellum daylight rules, Phone Mode toolbox & Back navigation stack"
+        "Synced shared Quartet DesignSystem, JamLink/Bundle/Suite modal z-index & BT footswitch guards"
       ]
     }
   },
