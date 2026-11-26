@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T10:50:40Z",
+  "updatedAt": "2026-11-26T11:51:53Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "e473fa017a99",
-      "sizeMb": "9.51",
+      "sha256": "f82bb770581f",
+      "sizeMb": "9.52",
       "releaseHistory": [
         {
           "seq": 1,
@@ -184,22 +184,35 @@
           "notes": [
             "Safe Body Weight Relief & Chambering CAD (1:1 router jigs + CNC .GCODE) for all body templates"
           ]
+        },
+        {
+          "seq": 16,
+          "androidVersionCode": 2121,
+          "swBuild": 777,
+          "sha256": "f82bb770581f",
+          "sizeMb": "9.52",
+          "updatedAt": "2026-11-26T11:51:53Z",
+          "notes": [
+            "Automatic launch update check prompts with What's New & one-tap in-place update",
+            "Skip-this-build & Later options plus sibling app update alerts"
+          ]
         }
       ],
-      "releaseSeq": 15,
-      "androidVersionCode": 2120,
-      "swBuild": 776,
-      "updatedAt": "2026-11-26T08:53:54Z",
+      "releaseSeq": 16,
+      "androidVersionCode": 2121,
+      "swBuild": 777,
+      "updatedAt": "2026-11-26T11:51:53Z",
       "whatsNew": [
-        "Safe Body Weight Relief & Chambering CAD (1:1 router jigs + CNC .GCODE) for all body templates"
+        "Automatic launch update check prompts with What's New & one-tap in-place update",
+        "Skip-this-build & Later options plus sibling app update alerts"
       ]
     },
     "TONEFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "6e32394ad9fa",
-      "sizeMb": "8.35",
+      "sha256": "21d5bd5bf227",
+      "sizeMb": "8.36",
       "releaseHistory": [
         {
           "seq": 1,
@@ -301,22 +314,35 @@
           "notes": [
             "Fix underwater Live Mic & Live Monitor audio (broadband Cabinet IR passband, soft-knee Worklet gate, OS sample-rate sync"
           ]
+        },
+        {
+          "seq": 10,
+          "androidVersionCode": 2052,
+          "swBuild": 461,
+          "sha256": "21d5bd5bf227",
+          "sizeMb": "8.36",
+          "updatedAt": "2026-11-26T11:51:53Z",
+          "notes": [
+            "Automatic launch update check prompts with What's New & one-tap in-place update",
+            "Skip-this-build & Later options plus sibling app update alerts"
+          ]
         }
       ],
-      "releaseSeq": 9,
-      "androidVersionCode": 2051,
-      "swBuild": 460,
-      "updatedAt": "2026-11-26T09:30:41Z",
+      "releaseSeq": 10,
+      "androidVersionCode": 2052,
+      "swBuild": 461,
+      "updatedAt": "2026-11-26T11:51:53Z",
       "whatsNew": [
-        "Fix underwater Live Mic & Live Monitor audio (broadband Cabinet IR passband, soft-knee Worklet gate, OS sample-rate sync"
+        "Automatic launch update check prompts with What's New & one-tap in-place update",
+        "Skip-this-build & Later options plus sibling app update alerts"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "828dbc5dd4f7",
-      "sizeMb": "8.14",
+      "sha256": "1c6e4c3c73c2",
+      "sizeMb": "8.15",
       "releaseHistory": [
         {
           "seq": 1,
@@ -443,22 +469,35 @@
           "notes": [
             "Interactive Thumb + 3-Finger (P-i-m-a) Fingerstyle, Pinch & Travis Coach (6 stages, X-Clearance lanes, Thumb Isolation &"
           ]
+        },
+        {
+          "seq": 12,
+          "androidVersionCode": 2078,
+          "swBuild": 78,
+          "sha256": "1c6e4c3c73c2",
+          "sizeMb": "8.15",
+          "updatedAt": "2026-11-26T11:51:53Z",
+          "notes": [
+            "Automatic launch update check prompts with What's New & one-tap in-place update",
+            "Skip-this-build & Later options plus sibling app update alerts"
+          ]
         }
       ],
-      "releaseSeq": 11,
-      "androidVersionCode": 2077,
-      "swBuild": 77,
-      "updatedAt": "2026-11-26T10:06:48Z",
+      "releaseSeq": 12,
+      "androidVersionCode": 2078,
+      "swBuild": 78,
+      "updatedAt": "2026-11-26T11:51:53Z",
       "whatsNew": [
-        "Interactive Thumb + 3-Finger (P-i-m-a) Fingerstyle, Pinch & Travis Coach (6 stages, X-Clearance lanes, Thumb Isolation &"
+        "Automatic launch update check prompts with What's New & one-tap in-place update",
+        "Skip-this-build & Later options plus sibling app update alerts"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "752700f5d86f",
-      "sizeMb": "8.84",
+      "sha256": "56d16b54a2e5",
+      "sizeMb": "8.85",
       "releaseHistory": [
         {
           "seq": 1,
@@ -585,21 +624,34 @@
           "notes": [
             "Guided Open-Strum, First-Fret Nut & Floating Tremolo Wizard (real-time mic auto-capture, Frets 0-3 single-string walkthr"
           ]
+        },
+        {
+          "seq": 12,
+          "androidVersionCode": 2063,
+          "swBuild": 63,
+          "sha256": "56d16b54a2e5",
+          "sizeMb": "8.85",
+          "updatedAt": "2026-11-26T11:51:53Z",
+          "notes": [
+            "Automatic launch update check prompts with What's New & one-tap in-place update",
+            "Skip-this-build & Later options plus sibling app update alerts"
+          ]
         }
       ],
-      "releaseSeq": 11,
-      "androidVersionCode": 2062,
-      "swBuild": 62,
-      "updatedAt": "2026-11-26T10:50:40Z",
+      "releaseSeq": 12,
+      "androidVersionCode": 2063,
+      "swBuild": 63,
+      "updatedAt": "2026-11-26T11:51:53Z",
       "whatsNew": [
-        "Guided Open-Strum, First-Fret Nut & Floating Tremolo Wizard (real-time mic auto-capture, Frets 0-3 single-string walkthr"
+        "Automatic launch update check prompts with What's New & one-tap in-place update",
+        "Skip-this-build & Later options plus sibling app update alerts"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "97ffc883ae2f",
+      "sha256": "76bc6e36b5d7",
       "sizeMb": "7.85",
       "releaseHistory": [
         {
@@ -691,14 +743,27 @@
           "notes": [
             "Added dedicated EarForge Diagnostics profile & Report Issue button"
           ]
+        },
+        {
+          "seq": 9,
+          "androidVersionCode": 2020,
+          "swBuild": 115,
+          "sha256": "76bc6e36b5d7",
+          "sizeMb": "7.85",
+          "updatedAt": "2026-11-26T11:51:53Z",
+          "notes": [
+            "Automatic launch update check prompts with What's New & one-tap in-place update",
+            "Skip-this-build & Later options plus sibling app update alerts"
+          ]
         }
       ],
-      "releaseSeq": 8,
-      "androidVersionCode": 2019,
-      "swBuild": 114,
-      "updatedAt": "2026-11-26T02:48:59Z",
+      "releaseSeq": 9,
+      "androidVersionCode": 2020,
+      "swBuild": 115,
+      "updatedAt": "2026-11-26T11:51:53Z",
       "whatsNew": [
-        "Added dedicated EarForge Diagnostics profile & Report Issue button"
+        "Automatic launch update check prompts with What's New & one-tap in-place update",
+        "Skip-this-build & Later options plus sibling app update alerts"
       ]
     }
   },
