@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T00:14:35Z",
+  "updatedAt": "2026-11-26T00:57:22Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -380,8 +380,8 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "51e9d67c64c1",
-      "sizeMb": "8.81",
+      "sha256": "70f00c86826f",
+      "sizeMb": "8.83",
       "releaseHistory": [
         {
           "seq": 1,
@@ -472,14 +472,29 @@
           "notes": [
             "Tap any What's New box in Suite Hub to see the last 5 updates"
           ]
+        },
+        {
+          "seq": 9,
+          "androidVersionCode": 2060,
+          "swBuild": 60,
+          "sha256": "70f00c86826f",
+          "sizeMb": "8.83",
+          "updatedAt": "2026-11-26T00:57:22Z",
+          "notes": [
+            "Guitar-Calm Strobe Feel + ±0.5¢–10¢ Lock Window slider with wide-tolerance chord advisor",
+            "Guided String Progression: hands-free string-by-string auto-advance with hold bar & order picker",
+            "Live String & Tuner Doctor: detects worn strings, tuner gear backlash, nut ping & string stretch"
+          ]
         }
       ],
-      "releaseSeq": 8,
-      "androidVersionCode": 2059,
-      "swBuild": 59,
-      "updatedAt": "2026-11-26T00:14:35Z",
+      "releaseSeq": 9,
+      "androidVersionCode": 2060,
+      "swBuild": 60,
+      "updatedAt": "2026-11-26T00:57:22Z",
       "whatsNew": [
-        "Tap any What's New box in Suite Hub to see the last 5 updates"
+        "Guitar-Calm Strobe Feel + ±0.5¢–10¢ Lock Window slider with wide-tolerance chord advisor",
+        "Guided String Progression: hands-free string-by-string auto-advance with hold bar & order picker",
+        "Live String & Tuner Doctor: detects worn strings, tuner gear backlash, nut ping & string stretch"
       ]
     },
     "EARFORGE": {
