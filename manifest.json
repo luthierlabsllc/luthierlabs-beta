@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T01:56:36Z",
+  "updatedAt": "2026-11-26T02:48:59Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -176,7 +176,7 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/ToneForge-NeuralStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#toneforge",
-      "sha256": "07f5c168af90",
+      "sha256": "aa66130f3c29",
       "sizeMb": "8.35",
       "releaseHistory": [
         {
@@ -257,21 +257,32 @@
           "notes": [
             "Tap any What's New box in Suite Hub to see the last 5 updates"
           ]
+        },
+        {
+          "seq": 8,
+          "androidVersionCode": 2050,
+          "swBuild": 459,
+          "sha256": "aa66130f3c29",
+          "sizeMb": "8.35",
+          "updatedAt": "2026-11-26T02:48:59Z",
+          "notes": [
+            "Added labeled Report Issue button & Phone Toolbox flight log entry"
+          ]
         }
       ],
-      "releaseSeq": 7,
-      "androidVersionCode": 2049,
-      "swBuild": 458,
-      "updatedAt": "2026-11-26T00:14:35Z",
+      "releaseSeq": 8,
+      "androidVersionCode": 2050,
+      "swBuild": 459,
+      "updatedAt": "2026-11-26T02:48:59Z",
       "whatsNew": [
-        "Tap any What's New box in Suite Hub to see the last 5 updates"
+        "Added labeled Report Issue button & Phone Toolbox flight log entry"
       ]
     },
     "FRETFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "7b282d70b61c",
+      "sha256": "9d74a272c0aa",
       "sizeMb": "8.12",
       "releaseHistory": [
         {
@@ -377,21 +388,32 @@
           "notes": [
             "Tap any What's New box in Suite Hub to see the last 5 updates"
           ]
+        },
+        {
+          "seq": 10,
+          "androidVersionCode": 2076,
+          "swBuild": 76,
+          "sha256": "9d74a272c0aa",
+          "sizeMb": "8.12",
+          "updatedAt": "2026-11-26T02:48:59Z",
+          "notes": [
+            "Added labeled Report Issue header button & /diag omnibox command"
+          ]
         }
       ],
-      "releaseSeq": 9,
-      "androidVersionCode": 2075,
-      "swBuild": 75,
-      "updatedAt": "2026-11-26T00:14:35Z",
+      "releaseSeq": 10,
+      "androidVersionCode": 2076,
+      "swBuild": 76,
+      "updatedAt": "2026-11-26T02:48:59Z",
       "whatsNew": [
-        "Tap any What's New box in Suite Hub to see the last 5 updates"
+        "Added labeled Report Issue header button & /diag omnibox command"
       ]
     },
     "PRECISION_STROBE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/PrecisionStrobe-Tuner-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#strobe",
-      "sha256": "70f00c86826f",
+      "sha256": "fda2d098668a",
       "sizeMb": "8.83",
       "releaseHistory": [
         {
@@ -496,23 +518,34 @@
             "Guided String Progression: hands-free string-by-string auto-advance with hold bar & order picker",
             "Live String & Tuner Doctor: detects worn strings, tuner gear backlash, nut ping & string stretch"
           ]
+        },
+        {
+          "seq": 10,
+          "androidVersionCode": 2061,
+          "swBuild": 61,
+          "sha256": "fda2d098668a",
+          "sizeMb": "8.83",
+          "updatedAt": "2026-11-26T02:48:59Z",
+          "notes": [
+            "Added labeled Report Issue button & Phone Toolbox flight log entry",
+            "Diagnostics now attach live tuning, slider & String Health state"
+          ]
         }
       ],
-      "releaseSeq": 9,
-      "androidVersionCode": 2060,
-      "swBuild": 60,
-      "updatedAt": "2026-11-26T00:57:22Z",
+      "releaseSeq": 10,
+      "androidVersionCode": 2061,
+      "swBuild": 61,
+      "updatedAt": "2026-11-26T02:48:59Z",
       "whatsNew": [
-        "Guitar-Calm Strobe Feel + ±0.5¢–10¢ Lock Window slider with wide-tolerance chord advisor",
-        "Guided String Progression: hands-free string-by-string auto-advance with hold bar & order picker",
-        "Live String & Tuner Doctor: detects worn strings, tuner gear backlash, nut ping & string stretch"
+        "Added labeled Report Issue button & Phone Toolbox flight log entry",
+        "Diagnostics now attach live tuning, slider & String Health state"
       ]
     },
     "EARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/EarForge-GoldenEarGym-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#earforge",
-      "sha256": "e00830206edf",
+      "sha256": "97ffc883ae2f",
       "sizeMb": "7.85",
       "releaseHistory": [
         {
@@ -593,14 +626,25 @@
           "notes": [
             "Tap any What's New box in Suite Hub to see the last 5 updates"
           ]
+        },
+        {
+          "seq": 8,
+          "androidVersionCode": 2019,
+          "swBuild": 114,
+          "sha256": "97ffc883ae2f",
+          "sizeMb": "7.85",
+          "updatedAt": "2026-11-26T02:48:59Z",
+          "notes": [
+            "Added dedicated EarForge Diagnostics profile & Report Issue button"
+          ]
         }
       ],
-      "releaseSeq": 7,
-      "androidVersionCode": 2018,
-      "swBuild": 113,
-      "updatedAt": "2026-11-26T00:14:35Z",
+      "releaseSeq": 8,
+      "androidVersionCode": 2019,
+      "swBuild": 114,
+      "updatedAt": "2026-11-26T02:48:59Z",
       "whatsNew": [
-        "Tap any What's New box in Suite Hub to see the last 5 updates"
+        "Added dedicated EarForge Diagnostics profile & Report Issue button"
       ]
     }
   },
