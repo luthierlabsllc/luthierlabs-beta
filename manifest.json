@@ -1,6 +1,6 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T09:30:41Z",
+  "updatedAt": "2026-11-26T10:06:48Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
@@ -315,8 +315,8 @@
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/FretForge-GuitarCoach-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#fretforge",
-      "sha256": "9d74a272c0aa",
-      "sizeMb": "8.12",
+      "sha256": "828dbc5dd4f7",
+      "sizeMb": "8.14",
       "releaseHistory": [
         {
           "seq": 1,
@@ -432,14 +432,25 @@
           "notes": [
             "Added labeled Report Issue header button & /diag omnibox command"
           ]
+        },
+        {
+          "seq": 11,
+          "androidVersionCode": 2077,
+          "swBuild": 77,
+          "sha256": "828dbc5dd4f7",
+          "sizeMb": "8.14",
+          "updatedAt": "2026-11-26T10:06:48Z",
+          "notes": [
+            "Interactive Thumb + 3-Finger (P-i-m-a) Fingerstyle, Pinch & Travis Coach (6 stages, X-Clearance lanes, Thumb Isolation &"
+          ]
         }
       ],
-      "releaseSeq": 10,
-      "androidVersionCode": 2076,
-      "swBuild": 76,
-      "updatedAt": "2026-11-26T02:48:59Z",
+      "releaseSeq": 11,
+      "androidVersionCode": 2077,
+      "swBuild": 77,
+      "updatedAt": "2026-11-26T10:06:48Z",
       "whatsNew": [
-        "Added labeled Report Issue header button & /diag omnibox command"
+        "Interactive Thumb + 3-Finger (P-i-m-a) Fingerstyle, Pinch & Travis Coach (6 stages, X-Clearance lanes, Thumb Isolation &"
       ]
     },
     "PRECISION_STROBE": {
