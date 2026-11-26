@@ -428,12 +428,13 @@
     <header class="hero">
       <div class="hero-top">
         <div>
-          <h1>LuthierLabs 5-App Suite — Android Beta (v1.1.0)</h1>
-          <p class="sub">Direct 1-tap APK installs for testers. Works with no GitHub account required.</p>
+          <h1>LuthierLabs 5-App Suite — Windows PC &amp; Android Beta (v1.1.0)</h1>
+          <p class="sub">Unified self-updating Windows 10/11 PC Workstation plus direct 1-tap Android APKs. Works with no GitHub account required.</p>
         </div>
         <button type="button" class="share-main" id="share-hub-btn">📲 Share Beta Link via Messages</button>
       </div>
       <div class="badge-row">
+        <span class="badge" style="border-color:#0ea5e9; background:rgba(14,165,233,0.14); color:#bae6fd;">Windows 10/11 64-Bit .EXE (All 5 Apps + 2s Auto-Sync)</span>
         <span class="badge">v1.1.0 Android APKs</span>
         <span class="badge brass">No Login Needed to Download</span>
         <span class="badge brass">Auto-Cleaning In-App Updater (Zero Downloads/ Clutter)</span>
@@ -449,6 +450,36 @@
         <li><strong>Cleaning old <code>.apk</code> files in <code>Downloads/</code>:</strong> You can safely delete any old <code>.apk</code> installers sitting in your phone’s <code>Downloads/</code> folder (installed apps live in Android system storage). Going forward, tapping <strong>Suite Hub → Update This App (.APK)</strong> inside any app downloads into an <strong>auto-cleaning private cache</strong> instead of piling up <code>.apk</code> files in <code>Downloads/</code>.</li>
       </ul>
     </section>
+
+    <article class="card" id="desktop-win" style="margin-bottom:16px; border-color:#0284c7;">
+      <div>
+        <div class="card-head">
+          <img class="card-icon" src="./assets/suite-guitarforge.png" alt="LuthierLabs Studio PC icon" width="58" height="58" />
+          <div>
+            <h2 class="card-title">LuthierLabs Studio — Windows 10/11 PC Workstation (All 5 Apps)</h2>
+            <p class="card-sub">Bundles GuitarForge CAD, ToneForge DAW, FretForge Coach, Precision Strobe &amp; EarForge + Shared Quartet Relay</p>
+          </div>
+        </div>
+        <ul class="highlights" style="margin-top:10px;">
+          <li><strong>Install once, stay current automatically:</strong> Each app auto-syncs from this Beta Hub in ~2 seconds whenever an update ships (zero <code>.exe</code> reinstall needed)</li>
+          <li><strong>Start Menu shortcuts for all 5 apps + Quartet Split Hub:</strong> Exclusive-mode low-latency audio &amp; full 1:1 desktop printing</li>
+          <li><strong>Windows SmartScreen note:</strong> Unsigned beta preview — click <em>More info → Run anyway</em> on first install</li>
+        </ul>
+      </div>
+      <div>
+        <div id="desktop-win-whatsnew"></div>
+        <div class="meta" style="margin-bottom:10px;">
+          <span>Target: Windows 10/11 (x64)</span>
+          <span>87.98 MB</span>
+          <span>Shell Seq: 1</span>
+          <span>SHA256: b4fa15966609</span>
+        </div>
+        <div class="actions">
+          <a class="dl-btn" id="desktop-win-dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/LuthierLabs-Studio-Setup-v1.1.0-x64.exe" style="background:linear-gradient(135deg,#0284c7,#0369a1);">💻 Download Windows Installer (.EXE v1.1.0)</a>
+          <button type="button" class="share-app-btn" id="share-win-btn">Share PC Link</button>
+        </div>
+      </div>
+    </article>
 
     <main class="grid">
       <article class="card" id="guitarforge">
@@ -470,7 +501,7 @@
           <div class="meta" style="margin-bottom:10px;">
             <span>Drawer: LL GuitarForge</span>
             <span>9.48 MB</span>
-            <span>SHA256: 8d65b9fe9946</span>
+            <span>SHA256: fef723a558eb</span>
           </div>
           <div class="actions">
             <a class="dl-btn" href="https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk">⬇️ Download Android .APK (v1.1.0)</a>
@@ -665,6 +696,66 @@
       var LEDGER_KEY = 'll_beta_hub_dl_ledger_v1';
       var CARD_TO_APP = { guitarforge: 'GUITARFORGE', toneforge: 'TONEFORGE', fretforge: 'FRETFORGE', strobe: 'PRECISION_STROBE', earforge: 'EARFORGE' };
       var APP_TO_CARD = { GUITARFORGE: 'guitarforge', TONEFORGE: 'toneforge', FRETFORGE: 'fretforge', PRECISION_STROBE: 'strobe', EARFORGE: 'earforge' };
+
+      (function initDesktopWinCard() {
+        var shareWinBtn = document.getElementById('share-win-btn');
+        if (shareWinBtn) {
+          shareWinBtn.addEventListener('click', function () {
+            var shareUrl = 'https://luthierlabsllc.github.io/luthierlabs-beta/#desktop-win';
+            if (navigator.share) {
+              navigator.share({ title: 'LuthierLabs Studio — Windows PC Installer', text: 'Download all 5 LuthierLabs apps for Windows 10/11 PC (auto-syncing):', url: shareUrl }).catch(function () {});
+            } else if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(shareUrl).then(function () {
+                shareWinBtn.textContent = 'Copied PC Link!';
+                setTimeout(function () { shareWinBtn.textContent = 'Share PC Link'; }, 1800);
+              }).catch(function () {});
+            }
+          });
+        }
+
+        fetch('./manifest.json?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { return r && r.ok ? r.json() : null; })
+          .then(function (manifest) {
+            var win = manifest && manifest.desktop && manifest.desktop.win;
+            var card = document.getElementById('desktop-win');
+            var wnBox = document.getElementById('desktop-win-whatsnew');
+            var dlBtn = document.getElementById('desktop-win-dl-btn');
+            if (!card || !win) return;
+            if (win.exeUrl && dlBtn) {
+              dlBtn.href = win.exeUrl;
+              dlBtn.textContent = '💻 Download Windows Installer (.EXE v' + (win.version || '1.1.0') + ')';
+            }
+            var spans = card.querySelectorAll('.meta span');
+            if (spans[1] && win.sizeMb) spans[1].textContent = win.sizeMb + ' MB';
+            if (spans[2] && win.seq) spans[2].textContent = 'Shell Seq: ' + win.seq;
+            if (spans[3] && win.sha256) spans[3].textContent = 'SHA256: ' + win.sha256;
+
+            if (wnBox && Array.isArray(win.notes) && win.notes.length) {
+              wnBox.textContent = '';
+              var wrap = document.createElement('div');
+              wrap.className = 'whatsnew';
+              var head = document.createElement('div');
+              head.className = 'wn-head';
+              var title = document.createElement('span');
+              title.textContent = 'Latest PC Shell Release (Seq #' + (win.seq || 1) + ')';
+              var stamp = document.createElement('span');
+              stamp.className = 'wn-stamp';
+              stamp.textContent = win.updatedAt ? String(win.updatedAt).slice(0, 10) : '';
+              head.appendChild(title);
+              head.appendChild(stamp);
+              wrap.appendChild(head);
+              var ul = document.createElement('ul');
+              win.notes.forEach(function (n) {
+                var li = document.createElement('li');
+                li.textContent = String(n || '');
+                ul.appendChild(li);
+              });
+              wrap.appendChild(ul);
+              wnBox.appendChild(wrap);
+            }
+          })
+          .catch(function () {});
+      })();
       var CODE_TO_APP = { GF: 'GUITARFORGE', TF: 'TONEFORGE', FF: 'FRETFORGE', PS: 'PRECISION_STROBE', EF: 'EARFORGE' };
       var manifest = null;
       var lastStatus = {};

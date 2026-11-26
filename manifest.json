@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T00:57:22Z",
+  "updatedAt": "2026-11-26T01:56:36Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "8d65b9fe9946",
+      "sha256": "fef723a558eb",
       "sizeMb": "9.48",
       "releaseHistory": [
         {
@@ -151,14 +151,25 @@
           "notes": [
             "Tap any What's New box in Suite Hub to see the last 5 updates"
           ]
+        },
+        {
+          "seq": 13,
+          "androidVersionCode": 2118,
+          "swBuild": 774,
+          "sha256": "fef723a558eb",
+          "sizeMb": "9.48",
+          "updatedAt": "2026-11-26T01:56:36Z",
+          "notes": [
+            "Unified 5-app PC desktop workstation support & Quartet Hub OTA sync"
+          ]
         }
       ],
-      "releaseSeq": 12,
-      "androidVersionCode": 2117,
-      "swBuild": 773,
-      "updatedAt": "2026-11-26T00:14:35Z",
+      "releaseSeq": 13,
+      "androidVersionCode": 2118,
+      "swBuild": 774,
+      "updatedAt": "2026-11-26T01:56:36Z",
       "whatsNew": [
-        "Tap any What's New box in Suite Hub to see the last 5 updates"
+        "Unified 5-app PC desktop workstation support & Quartet Hub OTA sync"
       ]
     },
     "TONEFORGE": {
@@ -593,5 +604,34 @@
       ]
     }
   },
-  "historyCap": 50
+  "historyCap": 50,
+  "desktop": {
+    "win": {
+      "seq": 1,
+      "version": "1.1.0",
+      "exeUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/LuthierLabs-Studio-Setup-v1.1.0-x64.exe",
+      "sha256": "b4fa15966609",
+      "sizeMb": "87.98",
+      "updatedAt": "2026-11-26T01:56:36Z",
+      "notes": [
+        "Initial 5-app Windows 10/11 PC Workstation (Open Beta)",
+        "Auto-syncs individual app updates in ~2s from Beta Hub",
+        "Start Menu shortcuts for all 5 apps + Quartet Split Hub"
+      ],
+      "releaseHistory": [
+        {
+          "seq": 1,
+          "version": "1.1.0",
+          "sha256": "b4fa15966609",
+          "sizeMb": "87.98",
+          "updatedAt": "2026-11-26T01:56:36Z",
+          "notes": [
+            "Initial 5-app Windows 10/11 PC Workstation (Open Beta)",
+            "Auto-syncs individual app updates in ~2s from Beta Hub",
+            "Start Menu shortcuts for all 5 apps + Quartet Split Hub"
+          ]
+        }
+      ]
+    }
+  }
 }

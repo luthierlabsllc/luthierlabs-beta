@@ -126,6 +126,46 @@ function notesForApp(notesMap, appId) {
   return merged.length ? merged : ['Stability & maintenance update'];
 }
 
+const DEFAULT_WIN_EXE_NAME = 'LuthierLabs-Studio-Setup-v1.1.0-x64.exe';
+const DEFAULT_WIN_EXE_URL = 'https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/' + DEFAULT_WIN_EXE_NAME;
+
+function inspectDesktopExe(exePath) {
+  const buf = fs.readFileSync(exePath);
+  const verMatch = path.basename(exePath).match(/-v(\d+\.\d+\.\d+)/);
+  return {
+    sha256: crypto.createHash('sha256').update(buf).digest('hex').slice(0, 12),
+    sizeMb: (buf.length / 1048576).toFixed(2),
+    version: verMatch ? verMatch[1] : '1.1.0'
+  };
+}
+
+function applyDesktopExeInfo(manifest, info, notes, stampIso, exeUrl) {
+  if (!manifest.desktop || typeof manifest.desktop !== 'object') manifest.desktop = {};
+  const win = (manifest.desktop.win && typeof manifest.desktop.win === 'object') ? manifest.desktop.win : {};
+  const history = Array.isArray(win.releaseHistory) ? win.releaseHistory.slice() : [];
+  const last = history[history.length - 1];
+  if (last && last.sha256 === info.sha256) return false;
+  const seq = (last && Number.isFinite(+last.seq)) ? (+last.seq + 1) : (Number.isFinite(+win.seq) ? (+win.seq + 1) : 1);
+  history.push({
+    seq,
+    version: info.version,
+    sha256: info.sha256,
+    sizeMb: info.sizeMb,
+    updatedAt: stampIso,
+    notes
+  });
+  win.seq = seq;
+  win.version = info.version;
+  win.exeUrl = exeUrl || win.exeUrl || DEFAULT_WIN_EXE_URL;
+  win.sha256 = info.sha256;
+  win.sizeMb = info.sizeMb;
+  win.updatedAt = stampIso;
+  win.notes = notes;
+  win.releaseHistory = history.slice(-HISTORY_CAP);
+  manifest.desktop.win = win;
+  return true;
+}
+
 function applyApkInfoToApp(app, info, notes, stampIso) {
   const history = Array.isArray(app.releaseHistory) ? app.releaseHistory.slice() : [];
   const last = history[history.length - 1];
@@ -160,6 +200,14 @@ function refreshIndexHtml(html, manifest) {
     out = out.replace(re, (block) => block
       .replace(/<span>[\d.]+ MB<\/span>/, '<span>' + app.sizeMb + ' MB</span>')
       .replace(/SHA256: [0-9a-f]{6,64}/, 'SHA256: ' + app.sha256));
+  }
+  const win = manifest.desktop && manifest.desktop.win;
+  if (win && win.sizeMb && win.sha256) {
+    const winRe = /(<article class="card[^"]*" id="desktop-win"[\s\S]*?<\/article>)/;
+    out = out.replace(winRe, (block) => block
+      .replace(/<span>(?:[\d.]+ MB|Pending CI)<\/span>/, '<span>' + win.sizeMb + ' MB</span>')
+      .replace(/SHA256: (?:[0-9a-f]{6,64}|pending)/, 'SHA256: ' + win.sha256)
+      .replace(/Shell Seq: (?:\d+|pending)/, 'Shell Seq: ' + win.seq));
   }
   return out;
 }
@@ -201,8 +249,24 @@ function main() {
     }
   }
 
+  const existingWinUrl = manifest.desktop && manifest.desktop.win && manifest.desktop.win.exeUrl;
+  const winFileName = path.basename(String(existingWinUrl || DEFAULT_WIN_EXE_NAME));
+  const winExePath = path.join(args.apkDir, winFileName);
+  if (fs.existsSync(winExePath)) {
+    const winInfo = inspectDesktopExe(winExePath);
+    if (applyDesktopExeInfo(manifest, winInfo, notesForApp(notesMap, 'DESKTOP_WIN'), stampIso, existingWinUrl || DEFAULT_WIN_EXE_URL)) {
+      const winObj = manifest.desktop.win;
+      changed.push('DESKTOP_WIN');
+      console.log(`+ DESKTOP_WIN: seq ${winObj.seq} · v${winObj.version} · ${winInfo.sizeMb} MB · ${winInfo.sha256}`);
+    } else {
+      console.log(`= DESKTOP_WIN: unchanged (${winInfo.sha256})`);
+    }
+  } else {
+    console.log(`- DESKTOP_WIN: ${winFileName} not found, skipped`);
+  }
+
   if (!changed.length) {
-    console.log('No APK changes detected — manifest.json left untouched.');
+    console.log('No APK or Desktop installer changes detected — manifest.json left untouched.');
     return;
   }
   manifest.updatedAt = stampIso;
@@ -224,6 +288,8 @@ module.exports = {
   parseAxmlVersionCode,
   parseSwBuild,
   inspectApk,
+  inspectDesktopExe,
+  applyDesktopExeInfo,
   cleanNotes,
   notesForApp,
   applyApkInfoToApp,
