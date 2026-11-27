@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T01:10:56Z",
+  "updatedAt": "2026-11-27T01:43:06Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "a646d447352f",
-      "sizeMb": "9.61",
+      "sha256": "c175b1df3d06",
+      "sizeMb": "9.62",
       "releaseHistory": [
         {
           "seq": 1,
@@ -342,16 +342,29 @@
             "Added top-bar UI Zoom (- / 100% / +), Fit-to-Monitor sync, Fullscreen (F11), and Ctrl+/Ctrl-/Ctrl+0/Ctrl+Wheel scaling",
             "Added full-viewport Split Studio with auto-collapsing launch cards, 50/50 · 60/40 · 40/60 ratios & 3-App Ultrawide mode"
           ]
+        },
+        {
+          "seq": 29,
+          "androidVersionCode": 2134,
+          "swBuild": 790,
+          "sha256": "c175b1df3d06",
+          "sizeMb": "9.62",
+          "updatedAt": "2026-11-27T01:43:06Z",
+          "notes": [
+            "Synced Spatial Bench 1:1 with Schematic & EQ: exact 1–5+ pot count (incl. PTB Bass Cut, Strat Dual Tone & LP 2V+2T), 6-l",
+            "Added live Switch Position + DPDT + Active Flashing Path + loaded Jack Output kΩ strip in Spatial Bench with matching pi",
+            "Fixed React state-sync ordering so knob drags, switch clicks & preset loads update Spatial Bench and Schematic identical"
+          ]
         }
       ],
-      "releaseSeq": 28,
-      "androidVersionCode": 2133,
-      "swBuild": 789,
-      "updatedAt": "2026-11-27T01:10:56Z",
+      "releaseSeq": 29,
+      "androidVersionCode": 2134,
+      "swBuild": 790,
+      "updatedAt": "2026-11-27T01:43:06Z",
       "whatsNew": [
-        "Expanded PC & Web layout to full edge-to-edge monitor width (21:9 / 32:9 Ultrawide & 4K ready) with no 1380px/1650px sid",
-        "Added top-bar UI Zoom (- / 100% / +), Fit-to-Monitor sync, Fullscreen (F11), and Ctrl+/Ctrl-/Ctrl+0/Ctrl+Wheel scaling",
-        "Added full-viewport Split Studio with auto-collapsing launch cards, 50/50 · 60/40 · 40/60 ratios & 3-App Ultrawide mode"
+        "Synced Spatial Bench 1:1 with Schematic & EQ: exact 1–5+ pot count (incl. PTB Bass Cut, Strat Dual Tone & LP 2V+2T), 6-l",
+        "Added live Switch Position + DPDT + Active Flashing Path + loaded Jack Output kΩ strip in Spatial Bench with matching pi",
+        "Fixed React state-sync ordering so knob drags, switch clicks & preset loads update Spatial Bench and Schematic identical"
       ]
     },
     "TONEFORGE": {
