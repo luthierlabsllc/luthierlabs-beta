@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T02:09:38Z",
+  "updatedAt": "2026-11-27T02:56:44Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "9b9c897ee413",
-      "sizeMb": "9.63",
+      "sha256": "a65fefdf55ba",
+      "sizeMb": "9.66",
       "releaseHistory": [
         {
           "seq": 1,
@@ -368,16 +368,27 @@
             "Auto-synced Spatial Bench scale length to the selected guitar model (24.00\" Jaguar, 24.75\" Gibson LP/SG/335, 25.00\" PRS,",
             "Added clickable bell-chime harmonic auditioning on every string diamond with pickup magnetic node-scoop physics & live p"
           ]
+        },
+        {
+          "seq": 31,
+          "androidVersionCode": 2136,
+          "swBuild": 792,
+          "sha256": "a65fefdf55ba",
+          "sizeMb": "9.66",
+          "updatedAt": "2026-11-27T02:56:44Z",
+          "notes": [
+            "Overhauled Photo-to-1:1 Body Tracer with CIE Lab + binding-ridge 2D Marching-Squares contour detection that captures dee",
+            "Added interactive Photo Outline Verifier (+Keep / -Exclude brushes, Neck-Heel cut line, 44 draggable spline nodes, 4x Ed"
+          ]
         }
       ],
-      "releaseSeq": 30,
-      "androidVersionCode": 2135,
-      "swBuild": 791,
-      "updatedAt": "2026-11-27T02:09:38Z",
+      "releaseSeq": 31,
+      "androidVersionCode": 2136,
+      "swBuild": 792,
+      "updatedAt": "2026-11-27T02:56:44Z",
       "whatsNew": [
-        "Added scale-length Natural Harmonics on all 6 strings (⟨12⟩, ⟨7⟩, ⟨5⟩, ⟨3.9⟩, ⟨19⟩, ⟨24⟩ + H2–H7 Pinch Zones) with exact",
-        "Auto-synced Spatial Bench scale length to the selected guitar model (24.00\" Jaguar, 24.75\" Gibson LP/SG/335, 25.00\" PRS,",
-        "Added clickable bell-chime harmonic auditioning on every string diamond with pickup magnetic node-scoop physics & live p"
+        "Overhauled Photo-to-1:1 Body Tracer with CIE Lab + binding-ridge 2D Marching-Squares contour detection that captures dee",
+        "Added interactive Photo Outline Verifier (+Keep / -Exclude brushes, Neck-Heel cut line, 44 draggable spline nodes, 4x Ed"
       ]
     },
     "TONEFORGE": {
