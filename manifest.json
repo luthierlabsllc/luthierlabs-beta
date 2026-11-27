@@ -1,13 +1,13 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T00:10:46Z",
+  "updatedAt": "2026-11-27T00:33:17Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "305acef87e8a",
+      "sha256": "02c07479f3e4",
       "sizeMb": "9.60",
       "releaseHistory": [
         {
@@ -316,16 +316,29 @@
             "Added zero-dependency .STEP/.STP (ISO-10303-21), Wavefront .OBJ, .PSD, & .ZIP CAD parsers alongside .DXF, .SVG, .PDF, an",
             "Isolated automated browser-check & Desktop .tfvst.json exports so Downloads stays clean without numbered duplicate files"
           ]
+        },
+        {
+          "seq": 27,
+          "androidVersionCode": 2132,
+          "swBuild": 788,
+          "sha256": "02c07479f3e4",
+          "sizeMb": "9.60",
+          "updatedAt": "2026-11-27T00:33:17Z",
+          "notes": [
+            "Added live Build Version badge (v1.1.0 · Build 788) next to the App Title & Windows title bar with 1-click update sync",
+            "Stamped automatic per-build ?v=788 cache-busters on compiled scripts & unregistered stale Service Workers on Windows PC",
+            "Added live in-app PC OTA progress & 1-click 'Build Ready — Click to Reload' banner so open windows update immediately"
+          ]
         }
       ],
-      "releaseSeq": 26,
-      "androidVersionCode": 2131,
-      "swBuild": 787,
-      "updatedAt": "2026-11-27T00:10:46Z",
+      "releaseSeq": 27,
+      "androidVersionCode": 2132,
+      "swBuild": 788,
+      "updatedAt": "2026-11-27T00:33:17Z",
       "whatsNew": [
-        "Added pre-import CAD File Viewer (/cadviewer & CAD Viewer / Load) to browse folders, multi-select files, or expand .ZIP ",
-        "Added zero-dependency .STEP/.STP (ISO-10303-21), Wavefront .OBJ, .PSD, & .ZIP CAD parsers alongside .DXF, .SVG, .PDF, an",
-        "Isolated automated browser-check & Desktop .tfvst.json exports so Downloads stays clean without numbered duplicate files"
+        "Added live Build Version badge (v1.1.0 · Build 788) next to the App Title & Windows title bar with 1-click update sync",
+        "Stamped automatic per-build ?v=788 cache-busters on compiled scripts & unregistered stale Service Workers on Windows PC",
+        "Added live in-app PC OTA progress & 1-click 'Build Ready — Click to Reload' banner so open windows update immediately"
       ]
     },
     "TONEFORGE": {
@@ -1117,15 +1130,15 @@
   "historyCap": 50,
   "desktop": {
     "win": {
-      "seq": 2,
+      "seq": 3,
       "version": "1.1.0",
       "exeUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/LuthierLabs-Studio-Setup-v1.1.0-x64.exe",
-      "sha256": "f332f2da9c48",
-      "sizeMb": "87.99",
-      "updatedAt": "2026-11-26T02:56:30Z",
+      "sha256": "1a00afcdf035",
+      "sizeMb": "88.14",
+      "updatedAt": "2026-11-27T00:33:17Z",
       "notes": [
-        "Bundled all 5 updated apps with Report Issue + /diag support",
-        "Native Electron page screenshots & mailto draft forwarding (Seq 2)"
+        "Upgraded Windows PC Shell (Seq 3) with Build Version in title bar, automatic ServiceWorker/HTTP cache purge & 3-min OTA ",
+        "Bundled GuitarForge Build 788 (3-pot Strat schematic parity, Ctrl+Z undo, CAD File Viewer & clean .tfvst Downloads)"
       ],
       "releaseHistory": [
         {
@@ -1149,6 +1162,17 @@
           "notes": [
             "Bundled all 5 updated apps with Report Issue + /diag support",
             "Native Electron page screenshots & mailto draft forwarding (Seq 2)"
+          ]
+        },
+        {
+          "seq": 3,
+          "version": "1.1.0",
+          "sha256": "1a00afcdf035",
+          "sizeMb": "88.14",
+          "updatedAt": "2026-11-27T00:33:17Z",
+          "notes": [
+            "Upgraded Windows PC Shell (Seq 3) with Build Version in title bar, automatic ServiceWorker/HTTP cache purge & 3-min OTA ",
+            "Bundled GuitarForge Build 788 (3-pot Strat schematic parity, Ctrl+Z undo, CAD File Viewer & clean .tfvst Downloads)"
           ]
         }
       ]
