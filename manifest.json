@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T02:56:44Z",
+  "updatedAt": "2026-11-27T03:54:04Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "a65fefdf55ba",
-      "sizeMb": "9.66",
+      "sha256": "f32b554004c7",
+      "sizeMb": "9.68",
       "releaseHistory": [
         {
           "seq": 1,
@@ -380,15 +380,31 @@
             "Overhauled Photo-to-1:1 Body Tracer with CIE Lab + binding-ridge 2D Marching-Squares contour detection that captures dee",
             "Added interactive Photo Outline Verifier (+Keep / -Exclude brushes, Neck-Heel cut line, 44 draggable spline nodes, 4x Ed"
           ]
+        },
+        {
+          "seq": 32,
+          "androidVersionCode": 2137,
+          "swBuild": 793,
+          "sha256": "f32b554004c7",
+          "sizeMb": "9.68",
+          "updatedAt": "2026-11-27T03:54:04Z",
+          "notes": [
+            "Fine-Zoom Border Sculptor: up to 1400% cursor zoom, Push/Pull Edge w/ photo-edge magnet & Redraw Stroke",
+            "Box Re-Fix Border: draw a box around any problem border spot to re-solve just that section + spike pruner",
+            "Optional Internal Routing Cavities & F-Holes: auto-detect or Box-Trace straight to 1:1 Blueprint, .SVG & .DXF",
+            "0°/90° Straighten button + default vertical centerline, flat widest-bout & 55.56 mm neck-pocket calipers"
+          ]
         }
       ],
-      "releaseSeq": 31,
-      "androidVersionCode": 2136,
-      "swBuild": 792,
-      "updatedAt": "2026-11-27T02:56:44Z",
+      "releaseSeq": 32,
+      "androidVersionCode": 2137,
+      "swBuild": 793,
+      "updatedAt": "2026-11-27T03:54:04Z",
       "whatsNew": [
-        "Overhauled Photo-to-1:1 Body Tracer with CIE Lab + binding-ridge 2D Marching-Squares contour detection that captures dee",
-        "Added interactive Photo Outline Verifier (+Keep / -Exclude brushes, Neck-Heel cut line, 44 draggable spline nodes, 4x Ed"
+        "Fine-Zoom Border Sculptor: up to 1400% cursor zoom, Push/Pull Edge w/ photo-edge magnet & Redraw Stroke",
+        "Box Re-Fix Border: draw a box around any problem border spot to re-solve just that section + spike pruner",
+        "Optional Internal Routing Cavities & F-Holes: auto-detect or Box-Trace straight to 1:1 Blueprint, .SVG & .DXF",
+        "0°/90° Straighten button + default vertical centerline, flat widest-bout & 55.56 mm neck-pocket calipers"
       ]
     },
     "TONEFORGE": {
