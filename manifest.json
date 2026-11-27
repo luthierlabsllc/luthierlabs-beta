@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T01:43:06Z",
+  "updatedAt": "2026-11-27T02:09:38Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "c175b1df3d06",
-      "sizeMb": "9.62",
+      "sha256": "9b9c897ee413",
+      "sizeMb": "9.63",
       "releaseHistory": [
         {
           "seq": 1,
@@ -355,16 +355,29 @@
             "Added live Switch Position + DPDT + Active Flashing Path + loaded Jack Output kΩ strip in Spatial Bench with matching pi",
             "Fixed React state-sync ordering so knob drags, switch clicks & preset loads update Spatial Bench and Schematic identical"
           ]
+        },
+        {
+          "seq": 30,
+          "androidVersionCode": 2135,
+          "swBuild": 791,
+          "sha256": "9b9c897ee413",
+          "sizeMb": "9.63",
+          "updatedAt": "2026-11-27T02:09:38Z",
+          "notes": [
+            "Added scale-length Natural Harmonics on all 6 strings (⟨12⟩, ⟨7⟩, ⟨5⟩, ⟨3.9⟩, ⟨19⟩, ⟨24⟩ + H2–H7 Pinch Zones) with exact",
+            "Auto-synced Spatial Bench scale length to the selected guitar model (24.00\" Jaguar, 24.75\" Gibson LP/SG/335, 25.00\" PRS,",
+            "Added clickable bell-chime harmonic auditioning on every string diamond with pickup magnetic node-scoop physics & live p"
+          ]
         }
       ],
-      "releaseSeq": 29,
-      "androidVersionCode": 2134,
-      "swBuild": 790,
-      "updatedAt": "2026-11-27T01:43:06Z",
+      "releaseSeq": 30,
+      "androidVersionCode": 2135,
+      "swBuild": 791,
+      "updatedAt": "2026-11-27T02:09:38Z",
       "whatsNew": [
-        "Synced Spatial Bench 1:1 with Schematic & EQ: exact 1–5+ pot count (incl. PTB Bass Cut, Strat Dual Tone & LP 2V+2T), 6-l",
-        "Added live Switch Position + DPDT + Active Flashing Path + loaded Jack Output kΩ strip in Spatial Bench with matching pi",
-        "Fixed React state-sync ordering so knob drags, switch clicks & preset loads update Spatial Bench and Schematic identical"
+        "Added scale-length Natural Harmonics on all 6 strings (⟨12⟩, ⟨7⟩, ⟨5⟩, ⟨3.9⟩, ⟨19⟩, ⟨24⟩ + H2–H7 Pinch Zones) with exact",
+        "Auto-synced Spatial Bench scale length to the selected guitar model (24.00\" Jaguar, 24.75\" Gibson LP/SG/335, 25.00\" PRS,",
+        "Added clickable bell-chime harmonic auditioning on every string diamond with pickup magnetic node-scoop physics & live p"
       ]
     },
     "TONEFORGE": {
