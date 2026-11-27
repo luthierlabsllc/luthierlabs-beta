@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T00:33:17Z",
+  "updatedAt": "2026-11-27T01:10:56Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "02c07479f3e4",
-      "sizeMb": "9.60",
+      "sha256": "a646d447352f",
+      "sizeMb": "9.61",
       "releaseHistory": [
         {
           "seq": 1,
@@ -329,16 +329,29 @@
             "Stamped automatic per-build ?v=788 cache-busters on compiled scripts & unregistered stale Service Workers on Windows PC",
             "Added live in-app PC OTA progress & 1-click 'Build Ready — Click to Reload' banner so open windows update immediately"
           ]
+        },
+        {
+          "seq": 28,
+          "androidVersionCode": 2133,
+          "swBuild": 789,
+          "sha256": "a646d447352f",
+          "sizeMb": "9.61",
+          "updatedAt": "2026-11-27T01:10:56Z",
+          "notes": [
+            "Expanded PC & Web layout to full edge-to-edge monitor width (21:9 / 32:9 Ultrawide & 4K ready) with no 1380px/1650px sid",
+            "Added top-bar UI Zoom (- / 100% / +), Fit-to-Monitor sync, Fullscreen (F11), and Ctrl+/Ctrl-/Ctrl+0/Ctrl+Wheel scaling",
+            "Added full-viewport Split Studio with auto-collapsing launch cards, 50/50 · 60/40 · 40/60 ratios & 3-App Ultrawide mode"
+          ]
         }
       ],
-      "releaseSeq": 27,
-      "androidVersionCode": 2132,
-      "swBuild": 788,
-      "updatedAt": "2026-11-27T00:33:17Z",
+      "releaseSeq": 28,
+      "androidVersionCode": 2133,
+      "swBuild": 789,
+      "updatedAt": "2026-11-27T01:10:56Z",
       "whatsNew": [
-        "Added live Build Version badge (v1.1.0 · Build 788) next to the App Title & Windows title bar with 1-click update sync",
-        "Stamped automatic per-build ?v=788 cache-busters on compiled scripts & unregistered stale Service Workers on Windows PC",
-        "Added live in-app PC OTA progress & 1-click 'Build Ready — Click to Reload' banner so open windows update immediately"
+        "Expanded PC & Web layout to full edge-to-edge monitor width (21:9 / 32:9 Ultrawide & 4K ready) with no 1380px/1650px sid",
+        "Added top-bar UI Zoom (- / 100% / +), Fit-to-Monitor sync, Fullscreen (F11), and Ctrl+/Ctrl-/Ctrl+0/Ctrl+Wheel scaling",
+        "Added full-viewport Split Studio with auto-collapsing launch cards, 50/50 · 60/40 · 40/60 ratios & 3-App Ultrawide mode"
       ]
     },
     "TONEFORGE": {
@@ -1130,15 +1143,15 @@
   "historyCap": 50,
   "desktop": {
     "win": {
-      "seq": 3,
+      "seq": 4,
       "version": "1.1.0",
       "exeUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/LuthierLabs-Studio-Setup-v1.1.0-x64.exe",
-      "sha256": "1a00afcdf035",
-      "sizeMb": "88.14",
-      "updatedAt": "2026-11-27T00:33:17Z",
+      "sha256": "323324ac4ff4",
+      "sizeMb": "88.15",
+      "updatedAt": "2026-11-27T01:10:56Z",
       "notes": [
-        "Upgraded Windows PC Shell (Seq 3) with Build Version in title bar, automatic ServiceWorker/HTTP cache purge & 3-min OTA ",
-        "Bundled GuitarForge Build 788 (3-pot Strat schematic parity, Ctrl+Z undo, CAD File Viewer & clean .tfvst Downloads)"
+        "Synced Windows PC Workstation (Seq 4) to full monitor resolution (auto-maximized workArea + live resolution readout)",
+        "Added native Electron GPU UI Zoom (50%-220%, Ctrl+Plus/Minus/0, F11 Fullscreen) & ultrawide CSS across all 5 Suite apps"
       ],
       "releaseHistory": [
         {
@@ -1173,6 +1186,17 @@
           "notes": [
             "Upgraded Windows PC Shell (Seq 3) with Build Version in title bar, automatic ServiceWorker/HTTP cache purge & 3-min OTA ",
             "Bundled GuitarForge Build 788 (3-pot Strat schematic parity, Ctrl+Z undo, CAD File Viewer & clean .tfvst Downloads)"
+          ]
+        },
+        {
+          "seq": 4,
+          "version": "1.1.0",
+          "sha256": "323324ac4ff4",
+          "sizeMb": "88.15",
+          "updatedAt": "2026-11-27T01:10:56Z",
+          "notes": [
+            "Synced Windows PC Workstation (Seq 4) to full monitor resolution (auto-maximized workArea + live resolution readout)",
+            "Added native Electron GPU UI Zoom (50%-220%, Ctrl+Plus/Minus/0, F11 Fullscreen) & ultrawide CSS across all 5 Suite apps"
           ]
         }
       ]
