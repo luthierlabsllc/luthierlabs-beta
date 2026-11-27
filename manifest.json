@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-27T03:54:04Z",
+  "updatedAt": "2026-11-27T17:53:49Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "f32b554004c7",
-      "sizeMb": "9.68",
+      "sha256": "bf7f188eecfa",
+      "sizeMb": "9.73",
       "releaseHistory": [
         {
           "seq": 1,
@@ -394,17 +394,31 @@
             "Optional Internal Routing Cavities & F-Holes: auto-detect or Box-Trace straight to 1:1 Blueprint, .SVG & .DXF",
             "0°/90° Straighten button + default vertical centerline, flat widest-bout & 55.56 mm neck-pocket calipers"
           ]
+        },
+        {
+          "seq": 33,
+          "androidVersionCode": 2138,
+          "swBuild": 795,
+          "sha256": "bf7f188eecfa",
+          "sizeMb": "9.73",
+          "updatedAt": "2026-11-27T17:53:49Z",
+          "notes": [
+            "CAD-verified Strat front angled control cavity, cavity rotation stem & Delete key removal",
+            "Auto-align pickups & bridge with Neck Plate + natural harmonics (H4–H8) & 35 drop-in templates",
+            "Dense body/cavity splines (up to 180+ pts) with 90° sharp corner snap, Lock-In & Sync to Schematic",
+            "Interactive Weight Relief customizer: drag/resize boxes & combine wings into safe larger chambers"
+          ]
         }
       ],
-      "releaseSeq": 32,
-      "androidVersionCode": 2137,
-      "swBuild": 793,
-      "updatedAt": "2026-11-27T03:54:04Z",
+      "releaseSeq": 33,
+      "androidVersionCode": 2138,
+      "swBuild": 795,
+      "updatedAt": "2026-11-27T17:53:49Z",
       "whatsNew": [
-        "Fine-Zoom Border Sculptor: up to 1400% cursor zoom, Push/Pull Edge w/ photo-edge magnet & Redraw Stroke",
-        "Box Re-Fix Border: draw a box around any problem border spot to re-solve just that section + spike pruner",
-        "Optional Internal Routing Cavities & F-Holes: auto-detect or Box-Trace straight to 1:1 Blueprint, .SVG & .DXF",
-        "0°/90° Straighten button + default vertical centerline, flat widest-bout & 55.56 mm neck-pocket calipers"
+        "CAD-verified Strat front angled control cavity, cavity rotation stem & Delete key removal",
+        "Auto-align pickups & bridge with Neck Plate + natural harmonics (H4–H8) & 35 drop-in templates",
+        "Dense body/cavity splines (up to 180+ pts) with 90° sharp corner snap, Lock-In & Sync to Schematic",
+        "Interactive Weight Relief customizer: drag/resize boxes & combine wings into safe larger chambers"
       ]
     },
     "TONEFORGE": {
@@ -1196,15 +1210,14 @@
   "historyCap": 50,
   "desktop": {
     "win": {
-      "seq": 4,
+      "seq": 5,
       "version": "1.1.0",
       "exeUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/LuthierLabs-Studio-Setup-v1.1.0-x64.exe",
-      "sha256": "323324ac4ff4",
-      "sizeMb": "88.15",
-      "updatedAt": "2026-11-27T01:10:56Z",
+      "sha256": "c3d5917aead3",
+      "sizeMb": "88.23",
+      "updatedAt": "2026-11-27T17:53:49Z",
       "notes": [
-        "Synced Windows PC Workstation (Seq 4) to full monitor resolution (auto-maximized workArea + live resolution readout)",
-        "Added native Electron GPU UI Zoom (50%-220%, Ctrl+Plus/Minus/0, F11 Fullscreen) & ultrawide CSS across all 5 Suite apps"
+        "Bundled GuitarForge Build 795: Strat control route, cavity rotation, Neck-Plate harmonic align, 90° splines & Weight Rel"
       ],
       "releaseHistory": [
         {
@@ -1250,6 +1263,16 @@
           "notes": [
             "Synced Windows PC Workstation (Seq 4) to full monitor resolution (auto-maximized workArea + live resolution readout)",
             "Added native Electron GPU UI Zoom (50%-220%, Ctrl+Plus/Minus/0, F11 Fullscreen) & ultrawide CSS across all 5 Suite apps"
+          ]
+        },
+        {
+          "seq": 5,
+          "version": "1.1.0",
+          "sha256": "c3d5917aead3",
+          "sizeMb": "88.23",
+          "updatedAt": "2026-11-27T17:53:49Z",
+          "notes": [
+            "Bundled GuitarForge Build 795: Strat control route, cavity rotation, Neck-Plate harmonic align, 90° splines & Weight Rel"
           ]
         }
       ]
