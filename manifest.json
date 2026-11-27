@@ -1,14 +1,14 @@
 {
   "schema": "luthierlabs-beta-manifest/v1",
-  "updatedAt": "2026-11-26T23:44:39Z",
+  "updatedAt": "2026-11-27T00:10:46Z",
   "hubUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/",
   "apps": {
     "GUITARFORGE": {
       "version": "1.1.0",
       "apkUrl": "https://github.com/luthierlabsllc/luthierlabs-beta/releases/download/v1.1.0/GuitarForge-ToneStudio-v1.1.0.apk",
       "hubAnchorUrl": "https://luthierlabsllc.github.io/luthierlabs-beta/#guitarforge",
-      "sha256": "6d15f399c9d3",
-      "sizeMb": "9.57",
+      "sha256": "305acef87e8a",
+      "sizeMb": "9.60",
       "releaseHistory": [
         {
           "seq": 1,
@@ -303,16 +303,29 @@
             "Added Mobile Back buttons (header & thumb dock) + Android/swipe-back history to close drawers/modals or undo.",
             "Added Load CAD File (.DXF/.SVG/.PDF/.STL/Image) into 1:1 Router Templates w/ Letter tiling & .STL/.GCODE/.DXF export."
           ]
+        },
+        {
+          "seq": 26,
+          "androidVersionCode": 2131,
+          "swBuild": 787,
+          "sha256": "305acef87e8a",
+          "sizeMb": "9.60",
+          "updatedAt": "2026-11-27T00:10:46Z",
+          "notes": [
+            "Added pre-import CAD File Viewer (/cadviewer & CAD Viewer / Load) to browse folders, multi-select files, or expand .ZIP ",
+            "Added zero-dependency .STEP/.STP (ISO-10303-21), Wavefront .OBJ, .PSD, & .ZIP CAD parsers alongside .DXF, .SVG, .PDF, an",
+            "Isolated automated browser-check & Desktop .tfvst.json exports so Downloads stays clean without numbered duplicate files"
+          ]
         }
       ],
-      "releaseSeq": 25,
-      "androidVersionCode": 2130,
-      "swBuild": 786,
-      "updatedAt": "2026-11-26T23:44:39Z",
+      "releaseSeq": 26,
+      "androidVersionCode": 2131,
+      "swBuild": 787,
+      "updatedAt": "2026-11-27T00:10:46Z",
       "whatsNew": [
-        "Added PC Ctrl+Z Undo / Ctrl+Y Redo stack + toolbar buttons across wiring, pots, presets & CAD template editors.",
-        "Added Mobile Back buttons (header & thumb dock) + Android/swipe-back history to close drawers/modals or undo.",
-        "Added Load CAD File (.DXF/.SVG/.PDF/.STL/Image) into 1:1 Router Templates w/ Letter tiling & .STL/.GCODE/.DXF export."
+        "Added pre-import CAD File Viewer (/cadviewer & CAD Viewer / Load) to browse folders, multi-select files, or expand .ZIP ",
+        "Added zero-dependency .STEP/.STP (ISO-10303-21), Wavefront .OBJ, .PSD, & .ZIP CAD parsers alongside .DXF, .SVG, .PDF, an",
+        "Isolated automated browser-check & Desktop .tfvst.json exports so Downloads stays clean without numbered duplicate files"
       ]
     },
     "TONEFORGE": {
